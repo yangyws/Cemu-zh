@@ -1,0 +1,2944 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cemu-zh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-21 23:00+0800\n"
+"PO-Revision-Date: 2026-09-21 23:00+0800\n"
+"Last-Translator: yangyws <yangyws@users.noreply.github.com>\n"
+"Language-Team: Traditional Chinese (Taiwan) <zh-TW>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "&0.125x speed"
+msgstr "&0.125倍 速度"
+
+msgid "&0.25x speed"
+msgstr "&0.25倍 速度"
+
+msgid "&0.5x speed"
+msgstr "&0.5倍 速度"
+
+msgid "&1x speed"
+msgstr "&1倍 速度"
+
+msgid "&2x speed"
+msgstr "&2倍 速度"
+
+msgid "&4x speed"
+msgstr "&4倍 速度"
+
+msgid "&8x speed"
+msgstr "&8倍 速度"
+
+msgid "&About Cemu"
+msgstr "關於 Cemu(&A)"
+
+msgid "&Accurate barriers (Vulkan)"
+msgstr "精確同步屏障 (Vulkan)(&A)"
+
+msgid "&Active account"
+msgstr "當前帳號(&A)"
+
+msgid "&Add new entry"
+msgstr "新增新條目(&A)"
+
+msgid "&Audio API"
+msgstr "音訊 API(&A)"
+
+msgid "&Audio AUX only"
+msgstr "僅 AUX 音訊(&A)"
+
+msgid "&Breakpoints"
+msgstr "斷點(&B)"
+
+msgid "&CPU"
+msgstr "CPU(&C)"
+
+msgid "&CafeOS modules logging"
+msgstr "CafeOS 模組記錄檔(&C)"
+
+msgid "&Check for updates"
+msgstr "檢查更新(&C)"
+
+msgid "&Chinese"
+msgstr "簡體中文(&C)"
+
+msgid "&Console language"
+msgstr "主機語言(&C)"
+
+msgid "&Copy"
+msgstr "複製(&C)"
+
+msgid "&Coreinit File-Access"
+msgstr "&Coreinit 資料訪問"
+
+msgid "&Coreinit Logging (OSReport/OSConsole)"
+msgstr "&Coreinit 記錄檔記錄 (OSReport/OSConsole)"
+
+msgid "&Coreinit MP API"
+msgstr "&Coreinit MP API"
+
+msgid "&Coreinit Memory API"
+msgstr "&Coreinit 記憶體 API"
+
+msgid "&Coreinit Thread API"
+msgstr "&Coreinit 執行緒 API"
+
+msgid "&Coreinit Thread-Synchronization API"
+msgstr "&Coreinit 執行緒同步 API"
+
+msgid "&DLC directory"
+msgstr "DLC 目錄(&D)"
+
+msgid "&Debug"
+msgstr "除錯(&D)"
+
+msgid "&Decrement"
+msgstr "減少(&D)"
+
+msgid "&Delete"
+msgstr "刪除(&D)"
+
+msgid "&Download"
+msgstr "下載(&D)"
+
+msgid "&Download Manager"
+msgstr "下載管理器(&D)"
+
+msgid "&Dump"
+msgstr "轉儲(&D)"
+
+msgid "&Dump current RAM"
+msgstr "轉儲當前 RAM(&D)"
+
+msgid "&Dutch"
+msgstr "荷蘭語(&D)"
+
+msgid "&Edit game profile"
+msgstr "編輯遊戲設定檔(&E)"
+
+msgid "&Edit graphic packs"
+msgstr "編輯圖形外掛(&E)"
+
+msgid "&Edit name"
+msgstr "編輯名稱(&E)"
+
+msgid "&Emulated USB Devices"
+msgstr "模擬 USB 裝置(&E)"
+
+msgid "&English"
+msgstr "英語(&E)"
+
+msgid "&Exit"
+msgstr "退出(&E)"
+
+msgid "&Favorite"
+msgstr "收藏並置頂(&F)"
+
+msgid "&File"
+msgstr "檔案(&F)"
+
+msgid "&French"
+msgstr "法語(&F)"
+
+msgid "&Fullscreen"
+msgstr "全屏(&F)"
+
+msgid "&GX2 API"
+msgstr "&GX2 API"
+
+msgid "&Game directory"
+msgstr "遊戲目錄(&G)"
+
+msgid "&General settings"
+msgstr "通用設定(&G)"
+
+msgid "&German"
+msgstr "德語(&G)"
+
+msgid "&Getting started"
+msgstr "執行歡迎向導(&G)"
+
+msgid "&Goto Disasm"
+msgstr "跳轉到反編譯器 | &Goto Disasm"
+
+msgid "&Graphic pack patches"
+msgstr "圖形外掛補丁(&G)"
+
+msgid "&Graphic packs"
+msgstr "圖形外掛(&G)"
+
+msgid "&H264 API"
+msgstr "&H264 API"
+
+msgid "&Help"
+msgstr "幫助(&H)"
+
+msgid "&Increment"
+msgstr "增加(&I)"
+
+msgid "&Input API"
+msgstr "輸入 API(&I)"
+
+msgid "&Input settings"
+msgstr "輸入設定(&I)"
+
+msgid "&Install game title, update or DLC..."
+msgstr "安裝檔案、升級檔或 DLC(&I)..."
+
+msgid "&Invalid API usage"
+msgstr "無效 API 使用(&I)"
+
+msgid "&Italian"
+msgstr "義大利語(&I)"
+
+msgid "&Japanese"
+msgstr "日語(&J)"
+
+msgid "&Korean"
+msgstr "韓語(&K)"
+
+msgid "&Launch title"
+msgstr "載入檔案(&L)"
+
+msgid "&Launch with GDB stub"
+msgstr "使用 GDB 存根啟動(&L)"
+
+msgid "&Load..."
+msgstr "載入(&L)..."
+
+msgid "&Log PPC context for API"
+msgstr "為 API 記錄 PPC 上下文(&L)"
+
+msgid "&Logging"
+msgstr "記錄記錄檔(&L)"
+
+msgid "&Memory Dump"
+msgstr "記憶體轉儲(&M)"
+
+msgid "&Memory searcher"
+msgstr "記憶體搜尋器(&M)"
+
+msgid "&NFC"
+msgstr "NFC(&N)"
+
+msgid "&NN NFP"
+msgstr "&NN NFP"
+
+msgid "&Open Cemu folder"
+msgstr "開啟 Cemu 資料夾(&O)"
+
+msgid "&Open MLC folder"
+msgstr "開啟 MLC 資料夾(&O)"
+
+msgid "&Open directory"
+msgstr "開啟目錄(&O)"
+
+msgid "&Open logging window"
+msgstr "開啟記錄視窗(&O)"
+
+msgid "&OpenGL debug output"
+msgstr "OpenGL 除錯輸出(&O)"
+
+msgid "&Options"
+msgstr "選項(&O)"
+
+msgid "&Options below are for experts. Leave off if unsure"
+msgstr "以下選項適用於專家。如果不確定，請忽略(&O)"
+
+msgid "&Pin to main window"
+msgstr "貼靠於主視窗(&P)"
+
+msgid "&Portuguese"
+msgstr "葡萄牙語(&P)"
+
+msgid "&Refresh game list"
+msgstr "重新整理遊戲列表(&R)"
+
+msgid "&Registers"
+msgstr "暫存器(&R)"
+
+msgid "&Remove entry"
+msgstr "移除條目(&R)"
+
+msgid "&Render upside-down"
+msgstr "上下反轉渲染(&R)"
+
+msgid "&Resume"
+msgstr "恢復(&R)"
+
+msgid "&Retry"
+msgstr "重試(&R)"
+
+msgid "&Russian"
+msgstr "俄語(&R)"
+
+msgid "&Save API"
+msgstr "儲存 API(&S)"
+
+msgid "&Save directory"
+msgstr "存檔目錄(&S)"
+
+msgid "&Scan NFC tag from file"
+msgstr "載入 NFC 檔案(&S)"
+
+msgid "&Separate GamePad view"
+msgstr "單獨 GamePad 視窗(&S)"
+
+msgid "&Shaders"
+msgstr "著色器(&S)"
+
+msgid "&Show frame profiler"
+msgstr "顯示幀分析器(&S)"
+
+msgid "&Socket API"
+msgstr "套接 API(&S)"
+
+msgid "&Spanish"
+msgstr "西班牙語(&S)"
+
+msgid "&Start"
+msgstr "啟動(&S)"
+
+msgid "&Symbols"
+msgstr "符號(&S)"
+
+msgid "&Taiwanese"
+msgstr "繁體中文(&T)"
+
+msgid "&Texture cache warnings"
+msgstr "紋理快取警告(&T)"
+
+msgid "&Texture readback"
+msgstr "紋理回讀(&T)"
+
+msgid "&Textures"
+msgstr "紋理(&T)"
+
+msgid "&Timer speed"
+msgstr "時鐘速度(&T)"
+
+msgid "&Title Manager"
+msgstr "標題管理器(&T)"
+
+msgid "&Tools"
+msgstr "工具(&T)"
+
+msgid "&Unsupported API calls"
+msgstr "不支援的 API 呼叫(&U)"
+
+msgid "&Update directory"
+msgstr "更新檔目錄(&U)"
+
+msgid "&Verify integrity of game files"
+msgstr "驗證遊戲檔案的完整性(&V)"
+
+msgid "&View PPC debugger"
+msgstr "檢視 PPC 偵錯程式(&V)"
+
+msgid "&View PPC threads"
+msgstr "檢視 PPC 執行緒(&V)"
+
+msgid "&View audio debugger"
+msgstr "檢視音訊偵錯程式(&V)"
+
+msgid "&View texture cache info"
+msgstr "檢視紋理快取資訊(&V)"
+
+msgid "&Vulkan validation layer (slow)"
+msgstr "Vulkan 驗證層 (慢速)(&V)"
+
+msgid "&Wiki page"
+msgstr "Wiki 頁面(&W)"
+
+msgid "&Window"
+msgstr "視窗(&W)"
+
+msgid "&Zero"
+msgstr "零(&Z)"
+
+msgid "&nlibcurl HTTP/HTTPS requests"
+msgstr "&nlibcurl HTTP/HTTPS 請求"
+
+msgid "(optional)"
+msgstr "(可選的)"
+
+msgid "<profile name>"
+msgstr "<設定檔名稱>"
+
+msgid "> no modules loaded"
+msgstr "> 無載入模組"
+
+msgid "> unknown module"
+msgstr "> 未知模組"
+
+msgid "A custom mlc path from a previous Cemu installation has been found and filled in."
+msgstr "當前從舊的 Cemu 中找到了一個自定義的 MLC 路徑，已為您自動加入。"
+
+msgid "API"
+msgstr "API"
+
+msgid "AX voice viewer"
+msgstr "AX 聲音檢視器"
+
+msgid "About Cemu"
+msgstr "關於 Cemu"
+
+msgid "About title"
+msgstr "關於標題"
+
+msgid "Above"
+msgstr "上方"
+
+msgid "Account"
+msgstr "帳號"
+
+msgid "Account information"
+msgstr "帳號資訊"
+
+msgid "Account name may not be empty!"
+msgstr "帳號名不能為空！"
+
+msgid "Account settings"
+msgstr "帳號設定"
+
+msgid "AccountId missing (The account is not connected to a NNID)"
+msgstr "AccountId 丟失 (帳號未連線到 NNID)"
+
+msgid "AccountId missing (The account is not connected to a NNID/PNID)"
+msgstr "缺少 AccountId（此帳號尚未連結 NNID/PNID）"
+
+msgid "AccountPasswordCache is empty (The remember password option on your Wii U must be enabled for this account before dumping it)"
+msgstr "AccountPasswordCache 為空 (在轉儲此帳號之前， 必須在 Wii U 上為此帳號啟用記住密碼選項)"
+
+msgid "Accurate barriers"
+msgstr "精確同步屏障"
+
+msgid "Accurate barriers are off"
+msgstr "精確同步屏障 已關閉"
+
+msgid "Active account"
+msgstr "當前帳號"
+
+msgid "Active preset"
+msgstr "已啟用預設"
+
+msgid "Add"
+msgstr "新增"
+
+msgid "Add game path"
+msgstr "新增遊戲路徑"
+
+msgid "Add input API"
+msgstr "新增輸入 API"
+
+msgid "Add the root directory of your game(s). It will scan all directories in it for games"
+msgstr "新增您的遊戲的根目錄。 它將掃描其中的所有目錄以查詢遊戲"
+
+msgid "Additional options"
+msgstr "額外設定"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Adds a game path to scan for games displayed in the game list\nIf you have unpacked games, make sure to select the root folder of a game"
+msgstr "新增遊戲路徑以掃描遊戲\n如果您已解壓遊戲，請確保選擇遊戲的根資料夾"
+
+msgid "All Wii U files (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
+msgstr "所有 Wii U 檔案 (*.wud, *.wux, *.wua, *.iso, *.rpx, *.elf)"
+
+msgid "All files (*.*)"
+msgstr "所有檔案 (*.*)"
+
+msgid "Applying update..."
+msgstr "正在應用更新..."
+
+msgid "Are you really sure that you want to delete the following file:\n{}"
+msgstr "您確定要刪除以下檔案嗎？\n{}"
+
+msgid "Are you really sure that you want to delete the following folder:\n{}"
+msgstr "您真的確定要刪除以下資料夾嗎？\n{}"
+
+msgid "Are you really sure that you want to delete the save entry for {}"
+msgstr "真的確定要刪除 {} 的存檔條目嗎？"
+
+msgid "Are you really sure you want to delete the following entry?"
+msgstr "您確定要刪除以下項目嗎？"
+
+msgid "Are you sure you want to delete the account {0} with id {1}?"
+msgstr "您確定要刪除 ID 為 {1} 的帳號 {0} 嗎？"
+
+msgid "Are you sure you want to delete the account {} with id {:x}?"
+msgstr "您確定要刪除 ID 為 {:x} 的帳號 {} 嗎？"
+
+msgid "Are you sure you want to exit?"
+msgstr "您確定要結束嗎？"
+
+msgid "Async shader compile"
+msgstr "非同步著色器編譯"
+
+msgid "At least one issue has been found"
+msgstr "至少發現了一個問題"
+
+msgid "Audio"
+msgstr "音訊"
+
+msgid "Audio settings"
+msgstr "音訊設定"
+
+msgid "Australia"
+msgstr "澳大利亞"
+
+msgid "Author"
+msgstr "作者"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "Auto (recommended)"
+msgstr "自動 (推薦)"
+
+msgid "Auto refresh"
+msgstr "自動重新整理"
+
+msgid "Automatically check for updates"
+msgstr "自動檢查更新"
+
+msgid "Automatically checks for new cemu versions on startup"
+msgstr "啟動時自動檢查新的 Cemu 版本"
+
+msgid "Axis"
+msgstr "軸向"
+
+msgid "Base"
+msgstr "基底"
+
+msgid "Base game"
+msgstr "遊戲本體"
+
+msgid "Base game: Not installed"
+msgstr "遊戲本體：未安裝"
+
+msgid "Base game: {}"
+msgstr "遊戲本體：{}"
+
+msgid "Below"
+msgstr "下方"
+
+msgid "Bicubic"
+msgstr "雙三線"
+
+msgid "Bilinear"
+msgstr "雙線性"
+
+msgid "Birthday"
+msgstr "生日"
+
+msgid "Blow mic"
+msgstr "麥克風吹氣"
+
+msgid "Boost priority (-1)"
+msgstr "提升優先順序 (-1)"
+
+msgid "Boost priority (-5)"
+msgstr "提升優先順序 (-5)"
+
+msgid "Bottom center"
+msgstr "底部居中"
+
+msgid "Bottom left"
+msgstr "左下角"
+
+msgid "Bottom right"
+msgstr "右下角"
+
+msgid "Break (F5)"
+msgstr "中斷 (F5)"
+
+msgid "Break on &entry point"
+msgstr "在入口點處中斷(&E)"
+
+msgid "Breakpoints"
+msgstr "斷點"
+
+msgid "Browse"
+msgstr "瀏覽"
+
+msgid "Buttons"
+msgstr "按鍵"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "CPU mode"
+msgstr "CPU 模式"
+
+msgid "CPU per core usage"
+msgstr "CPU 各核心使用率"
+
+msgid "CPU usage"
+msgstr "CPU 使用率"
+
+msgid "CPU usage of Cemu in percent"
+msgstr "Cemu 的 CPU 使用率 (%)"
+
+msgid "Calibrate"
+msgstr "校準"
+
+msgid "Can't delete the only account!"
+msgstr "無法刪除唯一的帳號！"
+
+msgid "Can't open file to write!"
+msgstr "無法開啟要寫入的檔案！"
+
+msgid "Can't open file!"
+msgstr "無法開啟檔案！"
+
+msgid "Can't parse json file!"
+msgstr "無法解析 JSON 檔案！"
+
+msgid "Can't write to file: {}"
+msgstr "寫入檔案失敗：{}"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Cancel compressing title"
+msgstr "取消壓縮標題"
+
+msgid "Cancel installing title"
+msgstr "取消安裝標題"
+
+msgid "Cannot create file"
+msgstr "無法建立檔案"
+
+msgid "Cannot open file"
+msgstr "無法開啟檔案"
+
+msgid "Cannot write file. Disk full?"
+msgstr "無法寫入檔案。您的磁碟滿了嗎？"
+
+msgid "Cemu\nVersion {0}\nCompiled on {1}\nOriginal authors: {2}"
+msgstr "Cemu\n版本 {0}\n編譯於 {1}\n原始作者： {2}"
+
+msgid "Cemu RAM usage in MB"
+msgstr "Cemu 的記憶體使用量 (MB)"
+
+msgid "Cemu can't write to its directory.\nPlease move it to a different location or run Cemu as administrator!"
+msgstr "Cemu 無法寫入它的目錄。\n請將其移動到其他位置，或以 管理員身份 執行 Cemu！"
+
+msgid "Cemu can't write to the selected mlc path!\nDo you want to select another path?"
+msgstr "Cemu 無法寫入選擇的 MLC 路徑！\n您想嘗試選擇其他路徑嗎？"
+
+msgid "Cemu is a Wii U emulator.\n\nWii and Wii U are trademarks of Nintendo.\nCemu is not affiliated with Nintendo."
+msgstr "Cemu 是一款 Wii U 模擬器。\n\nWii 與 Wii U 為任天堂的註冊商標。\nCemu 與任天堂沒有任何關聯。"
+
+msgid "Cemu must be restarted to apply the selected UI language."
+msgstr "重啟 Cemu 才能應用所選的 UI 語言。"
+
+msgid "Cemu update"
+msgstr "Cemu 更新"
+
+msgid "Cemu will remember your custom mlc path in %LOCALAPPDATA%/Cemu for new installations."
+msgstr "對於新的安裝，Cemu 將記住您在 %LOCALAPPDATA%/Cemu 中的自定義 MLC 路徑。"
+
+msgid "Change"
+msgstr "更改"
+
+msgid "Changelog"
+msgstr "更改記錄檔"
+
+msgid "Changes the interface language of Cemu\nAvailable languages are stored in the translation directory\nA restart will be required after changing the language"
+msgstr "更改 Cemu 的介面語言\n可用語言儲存在翻譯目錄中\n更改語言後需要重新啟動"
+
+msgid "Changes the port that the GDB stub will use, which you can use by either starting Cemu with the --enable-gdbstub option or by enabling it the Debug tab."
+msgstr "更改 GDB 存根將使用的埠，您可以透過使用 enable-gdbstub 選項啟動 Cemu 或在“除錯”選項卡中啟用它來使用該埠。"
+
+msgid "Channels"
+msgstr "聲道"
+
+msgid "Checking"
+msgstr "正在檢查"
+
+msgid "Checking for latest version..."
+msgstr "正在檢查最新版本..."
+
+msgid "Checking version..."
+msgstr "檢查版本中..."
+
+msgid "China"
+msgstr "中國"
+
+msgid "Chinese"
+msgstr "簡體中文"
+
+msgid "Classic"
+msgstr "Classic"
+
+msgid "Clear"
+msgstr "清除"
+
+msgid "Clear custom path"
+msgstr "清除自定義路徑"
+
+msgid "Close"
+msgstr "關閉"
+
+msgid "Collecting list of files..."
+msgstr "收集檔案列表中..."
+
+msgid "Comment"
+msgstr "註釋"
+
+msgid "Complete"
+msgstr "完成"
+
+msgid "Compressing title"
+msgstr "正在壓縮標題"
+
+msgid "Configure input"
+msgstr "設定輸入"
+
+msgid "Confirmation"
+msgstr "確認資訊"
+
+msgid "Connect"
+msgstr "連線"
+
+msgid "Connect to a custom Network Service (configured via network_services.xml)"
+msgstr "連線到自定義網路服務（透過 network_services.xml 設定）"
+
+msgid "Connect to the Pretendo Network Service"
+msgstr "連線到 Pretendo 網路服務"
+
+msgid "Connect to the official Nintendo Network Service"
+msgstr "連線到官方 Nintendo 網路服務"
+
+msgid "Connect to which Network Service"
+msgstr "連線到哪個網路服務"
+
+msgid "Connected extension"
+msgstr "已連線擴充套件"
+
+msgid "Connected. Right click entries in the list to start downloading"
+msgstr "已連線。右鍵單擊列表中的條目即可開始下載"
+
+msgid "Console language"
+msgstr "主機語言"
+
+msgid "Control"
+msgstr "控制"
+
+msgid "Controller"
+msgstr "控制器"
+
+msgid "Controller has no motion sensors"
+msgstr "控制器無體感感應器"
+
+msgid "Controller profiles"
+msgstr "控制器設定檔"
+
+msgid "Controller settings"
+msgstr "控制器設定"
+
+msgid "Controller {0}"
+msgstr "控制器 {0}"
+
+msgid "Controller {}"
+msgstr "控制器 {}"
+
+msgid "Controls the accuracy of floating point multiplication in shaders"
+msgstr "控制著色器中浮點數乘法的精確度"
+
+msgid "Controls the amount of buffered audio data\nHigher values will create a delay in audio playback, but may avoid audio problems when emulation is too slow"
+msgstr "控制緩衝的音訊資料量\n較高的值會在音訊播放時產生延遲，但是可以避免模擬速度太慢時的音訊問題"
+
+msgid "Controls the notification position while playing"
+msgstr "控制遊戲中通知的顯示位置"
+
+msgid "Controls the output aspect ratio when it doesn't match the ratio of the game"
+msgstr "螢幕比例與遊戲比例不匹配時控制輸出的縱橫比"
+
+msgid "Controls the overlay which displays technical information while playing"
+msgstr "控制遊戲中顯示統計資訊的疊加層的位置"
+
+msgid "Controls the vsync state"
+msgstr "控制垂直同步狀態"
+
+msgid "Conversion failed\n"
+msgstr "轉換失敗\n"
+
+msgid "Conversion finished\n"
+msgstr "轉換完成\n"
+
+msgid "Convert to WUA"
+msgstr "轉換為 WUA"
+
+msgid "Convert to compressed Wii U archive (.wua)"
+msgstr "轉換為壓縮的 Wii U 檔案檔案 (.wua)"
+
+msgid "Converting files..."
+msgstr "轉換檔案中..."
+
+msgid "Copied to clipboard"
+msgstr "已複製到剪貼簿"
+
+msgid "Could not decrypt title because title.tik is missing."
+msgstr "由於缺少 title.tik，無法解密標題。"
+
+msgid "Could not decrypt title. Make sure that keys.txt contains the correct disc key for this title."
+msgstr "無法解密標題。請確認 keys.txt 中包含該標題正確的光碟金鑰。"
+
+msgid "Couldn't create a required cemu directory or file!\n\nError: {0}"
+msgstr "無法建立所需的 Cemu 目錄或檔案！\n\n錯誤： {0}"
+
+msgid "Couldn't create a required mlc01 subfolder or file!\n\nError: {0}\nTarget path:\n{1}"
+msgstr "無法建立所需的 mlc01 子資料夾或檔案！\n\n錯誤： {0}\n目標路徑：\n{1}"
+
+msgid "Couldn't create shortcut for game"
+msgstr "無法為遊戲建立捷徑"
+
+msgid "Couldn't download the update!"
+msgstr "無法下載更新！"
+
+msgid "Counting files..."
+msgstr "統計檔案中..."
+
+msgid "Country"
+msgstr "國家與地區"
+
+msgid "Crash dump"
+msgstr "崩潰時轉儲"
+
+msgid "Create"
+msgstr "建立"
+
+msgid "Create Infinity Figure file"
+msgstr "建立無限圖形檔案"
+
+msgid "Create Skylander file"
+msgstr "建立 Skylander 檔案"
+
+msgid "Create memory breakpoint (read)"
+msgstr "建立記憶體斷點 (讀取)"
+
+msgid "Create memory breakpoint (write)"
+msgstr "建立記憶體斷點 (寫入)"
+
+msgid "Create new account"
+msgstr "建立新帳號"
+
+msgid "Create shortcut"
+msgstr "建立捷徑"
+
+msgid "Creates a dump when Cemu crashes\nOnly enable when requested by a developer!\nThe Full option will create a very large dump file (includes a full RAM dump of the Cemu process)"
+msgstr "將在 Cemu 崩潰時建立轉儲\n僅在開發者要求時啟用！\n“完整” 選項將建立一個巨大的轉儲檔案 (包含 Cemu 程式的完整記憶體轉儲)"
+
+msgid "Current choice"
+msgstr "目前選擇"
+
+msgid "Current file:"
+msgstr "當前檔案："
+
+msgid "Currently active downloads will continue in the background."
+msgstr "當前進行的下載任務將在後臺繼續執行。"
+
+msgid "Custom"
+msgstr "自定義"
+
+msgid "Custom MLC path"
+msgstr "自定義 MLC 路徑"
+
+msgid "Custom driver"
+msgstr "自訂驅動程式"
+
+msgid "Custom drivers"
+msgstr "自訂驅動程式"
+
+msgid "Custom mlc01 path"
+msgstr "自定義 mlc01 路徑"
+
+msgid "D-pad"
+msgstr "十字鍵"
+
+msgid "DLC"
+msgstr "DLC"
+
+msgid "DLC: Not installed"
+msgstr "DLC：未安裝"
+
+msgid "DLC: {}"
+msgstr "DLC：{}"
+
+msgid "Deadzone"
+msgstr "死區"
+
+msgid "Debug"
+msgstr "除錯"
+
+msgid "Decrease priority (+1)"
+msgstr "降低優先順序 (+1)"
+
+msgid "Decrease priority (+5)"
+msgstr "降低優先順序 (+5)"
+
+msgid "Default"
+msgstr "預設"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Delete outdated cache file [recommended]"
+msgstr "刪除過期的快取檔案 [推薦]"
+
+msgid "Deleted title entry"
+msgstr "已刪除標題項目"
+
+msgid "Deleting"
+msgstr "正在刪除"
+
+msgid "Deleting: {0}"
+msgstr "正在刪除：{0}"
+
+msgid "Demo"
+msgstr "演示"
+
+msgid "Description"
+msgstr "介紹"
+
+msgid "Device"
+msgstr "裝置"
+
+msgid "Device controller"
+msgstr "裝置控制器"
+
+msgid "Device settings"
+msgstr "裝置設定"
+
+msgid "Dimensions Figure Mover"
+msgstr "Dimensions 公仔移動器"
+
+msgid "Dimensions Toypad"
+msgstr "Dimensions 玩具感應座"
+
+msgid "Dimensions figure"
+msgstr "Dimensions 公仔"
+
+msgid "Dimensions figure creator"
+msgstr "Dimensions 公仔建立器"
+
+msgid "Dimensions figures"
+msgstr "Dimensions 公仔列表"
+
+msgid "Disable screen saver"
+msgstr "禁用螢幕保護程式"
+
+msgid "Disabled"
+msgstr "禁用"
+
+msgid "Disabling the accurate barriers option will lead to flickering graphics but may improve performance. It is highly recommended to leave it turned on"
+msgstr "關閉精確同步屏障選項會導致畫面閃爍，但可能提升效能。強烈建議保持開啟"
+
+msgid "Discord Presence"
+msgstr "在 Discord 中顯示"
+
+msgid "Displays internal debug information (Vulkan only)"
+msgstr "顯示內部除錯資訊 (僅 Vulkan)"
+
+msgid "Displays the active controller profile when starting a game"
+msgstr "啟動遊戲時顯示啟用的控制器設定檔"
+
+msgid "Displays the menu bar when Cemu is running in fullscreen mode and the mouse cursor is moved to the top"
+msgstr "當 Cemu 在全屏模式下執行並將滑鼠游標移到頂部時顯示選單欄"
+
+msgid "Do you really want to cancel compressing the title?"
+msgstr "您確定要取消壓縮此標題嗎？"
+
+msgid "Do you really want to cancel the installation process?\n\nCanceling the process will delete the applied files."
+msgstr "您確定要取消安裝程序嗎？\n\n取消程序將會刪除已套用的檔案。"
+
+msgid "Do you want to view the downloaded graphic packs?"
+msgstr "您想檢視已下載的圖形外掛嗎？"
+
+msgid "Don't show this again"
+msgstr "不要再展示這個視窗了"
+
+msgid "Done"
+msgstr "完成"
+
+msgid "Double buffering"
+msgstr "雙重緩衝"
+
+msgid "Download Manager"
+msgstr "下載管理器"
+
+msgid "Download community graphic packs"
+msgstr "下載社群圖形外掛"
+
+msgid "Download failed"
+msgstr "下載失敗了"
+
+msgid "Download latest community graphic packs"
+msgstr "下載最新社群圖形外掛"
+
+msgid "Downloaded latest graphic packs"
+msgstr "已下載最新圖形包"
+
+msgid "Downloading"
+msgstr "下載中"
+
+msgid "Downloading account ticket"
+msgstr "下載帳號票證 (Tickets) 中"
+
+msgid "Downloading graphic packs..."
+msgstr "正在下載圖形外掛..."
+
+msgid "Downloading meta data"
+msgstr "下載後設資料中"
+
+msgid "Downloading system tickets..."
+msgstr "下載系統票證 (Tickets) 中..."
+
+msgid "Downloading ticket"
+msgstr "下載票證 (Tickets) 中"
+
+msgid "Downloading update..."
+msgstr "正在下載更新..."
+
+msgid "Downscale filter"
+msgstr "縮小過濾器"
+
+msgid "Downscaling filters are used when the game resolution is bigger than the window size"
+msgstr "當遊戲解析度大於視窗大小時，將使用縮小過濾器"
+
+msgid "Draw calls per frame"
+msgstr "每幀渲染呼叫"
+
+msgid "Driver already installed"
+msgstr "驅動程式已安裝"
+
+msgid "Driver installed successfully"
+msgstr "驅動程式安裝成功"
+
+msgid "Driver version"
+msgstr "驅動程式版本"
+
+msgid "Dutch"
+msgstr "荷蘭語"
+
+msgid "EXPERT OPTION\nControls the accuracy of floating point multiplication in shaders.\n\nRecommended: true"
+msgstr "專業選項\n控制著色器中浮點乘法的精度\n\n建議選項：開啟"
+
+msgid "EXPERT OPTION\nSet the maximum thread slice runtime (in virtual cycles)"
+msgstr "專業選項\n設定執行緒執行時間片的最大值 (以模擬CPU的時鐘週期為單位)"
+
+msgid "EXPERT OPTION\nThis option will load libraries from the cafeLibs directory"
+msgstr "專業選項\n該選項將從 cafeLibs 目錄載入庫"
+
+msgid "Edit game profile"
+msgstr "編輯遊戲設定檔"
+
+msgid "Edit input positions"
+msgstr "編輯按鍵位置"
+
+msgid "Edit input size"
+msgstr "編輯按鍵大小"
+
+msgid "Edit inputs"
+msgstr "編輯按鍵"
+
+msgid "Email"
+msgstr "電子郵件"
+
+msgid "Emulate Dimensions Toypad"
+msgstr "模擬 Dimensions 玩具感應座"
+
+msgid "Emulate Infinity Base"
+msgstr "模擬無限基數"
+
+msgid "Emulate Skylander Portal"
+msgstr "模擬 Skylander 門戶"
+
+msgid "Emulated USB Devices"
+msgstr "模擬 USB 裝置"
+
+msgid "Emulated USB Devices settings"
+msgstr "模擬 USB 裝置設定"
+
+msgid "Emulated controller"
+msgstr "模擬控制器"
+
+msgid "Emulated controller: {0}"
+msgstr "模擬控制器：{0}"
+
+msgid "Enable audio output for the Wii U Gamepad"
+msgstr "啟用 Wii U Gamepad 音訊輸出"
+
+msgid "Enable audio output for the Wii U TV"
+msgstr "啟用 Wii U TV 音訊輸出"
+
+msgid "Enable input overlay"
+msgstr "啟用虛擬按鍵覆蓋層"
+
+msgid "Enable motion"
+msgstr "啟用體感控制"
+
+msgid "Enable online mode"
+msgstr "啟用線上模式"
+
+msgid "Enable vibrate on touch"
+msgstr "啟用觸控震動"
+
+msgid "Enabled"
+msgstr "已啟用"
+
+msgid "Enables async shader and pipeline compilation. Reduces stutter at the cost of objects not rendering for a short time.\nVulkan only"
+msgstr "啟用非同步著色器與管線編譯。以物件短時間不渲染為代價減少畫面頓挫。\n僅限 Vulkan"
+
+msgid "Enables the Discord Rich Presence feature\nYou will also need to enable it in the Discord settings itself!"
+msgstr "啟用 Discord Rich Presence 功能\n您還需要在 Discord 設定中啟用它！"
+
+msgid "End emulation"
+msgstr "停止模擬"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Enter a custom game title"
+msgstr "輸入一個自定義的遊戲檔案"
+
+msgid "Enter a memory address"
+msgstr "輸入記憶體地址"
+
+msgid "Enter a new comment."
+msgstr "輸入新註釋。"
+
+msgid "Enter a new instruction."
+msgstr "輸入新指令。"
+
+msgid "Enter a new value."
+msgstr "輸入新值。"
+
+msgid "Enter a target address."
+msgstr "輸入目標地址。"
+
+msgid "Error"
+msgstr "錯誤"
+
+msgid "Error code"
+msgstr "錯誤程式碼"
+
+msgid "Error installing"
+msgstr "安裝時發生錯誤"
+
+msgid "Error when creating the extraction path:\n{}"
+msgstr "建立提取路徑時出錯：\n{}"
+
+msgid "Error when creating the zip for the save entry:\n{}"
+msgstr "為存檔條目建立 zip 壓縮時出錯：\n{}"
+
+msgid "Error when initializing Vulkan renderer:\n{}"
+msgstr "初始化 Vulkan 渲染器時出錯：\n{}"
+
+msgid "Error when opening the import zip file:\n{}"
+msgstr "開啟匯入的 zip 檔案中出錯：\n{}"
+
+msgid "Error when trying to add a directory to the zip:\n{}"
+msgstr "新增資料夾到 zip 壓縮時出錯：\n{}"
+
+msgid "Error when trying to add a file to the zip:\n{}"
+msgstr "新增檔案到 zip 壓縮時出錯：\n{}"
+
+msgid "Error when trying to add cemu_meta file to the zip:\n{}"
+msgstr "嘗試向壓縮包中新增 cemu_meta 檔案時發生錯誤：\n{}"
+
+msgid "Error when trying to delete the entry:\n{}"
+msgstr "刪除條目的過程中出錯：\n{}"
+
+msgid "Error when trying to delete the former save game:\n{}"
+msgstr "嘗試刪除以前的遊戲存檔時出錯：\n{}"
+
+msgid "Error when trying to delete the save directory:\n{}"
+msgstr "刪除存檔目錄時出錯：\n{}"
+
+msgid "Error when trying to move former title installation:\n{}"
+msgstr "嘗試移動此前的檔案安裝時出錯：\n{}"
+
+msgid "Error when trying to move the save game:\n{}"
+msgstr "移動存檔過程中出錯：\n{}"
+
+msgid "Error while converting"
+msgstr "轉換時發生錯誤"
+
+msgid "Error:"
+msgstr "錯誤："
+
+msgid "Europe"
+msgstr "歐洲"
+
+msgid "Exit"
+msgstr "退出"
+
+msgid "Exit confirmation"
+msgstr "結束確認"
+
+msgid "Exited input edit mode"
+msgstr "已退出按鍵編輯模式"
+
+msgid "Export"
+msgstr "匯出"
+
+msgid "Export checksum entry"
+msgstr "匯出 “校驗和” 條目"
+
+msgid "Export successful"
+msgstr "匯出成功"
+
+msgid "Export the title checksum data to a local JSON file"
+msgstr "匯出 “檔案校驗和” 資料到一個本地的 JSON 檔案"
+
+msgid "Exports the selected save entry as zip file"
+msgstr "將選定的存檔條目匯出為 zip 檔案"
+
+msgid "Extensions:"
+msgstr "擴充套件："
+
+msgid "Extra"
+msgstr "額外"
+
+msgid "Extracting failed!"
+msgstr "提取失敗！"
+
+msgid "Extracting update..."
+msgstr "正在提取更新..."
+
+msgid "Extracting..."
+msgstr "解壓中..."
+
+msgid "FP view mode"
+msgstr "第一人稱視角模式"
+
+msgid "FPS"
+msgstr "幀速率"
+
+msgid "Failed creating renderer: {0}"
+msgstr "建立渲染器失敗：{0}"
+
+msgid "Failed creating surface: {0}"
+msgstr "建立介面失敗：{0}"
+
+msgid "Failed to connect to server"
+msgstr "未能連線到伺服器"
+
+msgid "Failed to create figure"
+msgstr "建立公仔失敗"
+
+msgid "Failed to delete title entry"
+msgstr "刪除標題項目失敗"
+
+msgid "Failed to download graphic packs"
+msgstr "下載圖形包失敗"
+
+msgid "Failed to initialize"
+msgstr "初始化失敗"
+
+msgid "Failed to install driver"
+msgstr "安裝驅動程式失敗"
+
+msgid "Failed to launch executable. Path: "
+msgstr "無法啟動可執行檔案。路徑為： "
+
+msgid "Failed to launch game."
+msgstr "無法啟動遊戲。"
+
+msgid "Failed to launch title"
+msgstr "啟動標題失敗"
+
+msgid "Failed to load figure"
+msgstr "載入公仔失敗"
+
+msgid "Failed to open Cemu folder"
+msgstr "開啟 Cemu 資料夾失敗"
+
+msgid "Failed to open log file"
+msgstr "開啟記錄檔失敗"
+
+msgid "Failed to query account status. Invalid account information?"
+msgstr "查詢帳號狀態失敗。帳號資訊是否無效？"
+
+msgid "Failed to request tickets (invalid NNID?)"
+msgstr "請求票證 (Tickets) 失敗了 (NNID 無效?)"
+
+msgid "Failed to run this title because the executable is damaged"
+msgstr "由於可執行檔案已損壞，無法執行檔案"
+
+msgid "Failed. Account does not have password set"
+msgstr "失敗了。帳號沒有設定密碼"
+
+msgid "Favorite"
+msgstr "最愛"
+
+msgid "Female"
+msgstr "女"
+
+msgid "Figure number"
+msgstr "公仔編號"
+
+msgid "Filter"
+msgstr "過濾"
+
+msgid "Filter messages"
+msgstr "篩選資訊"
+
+msgid "Finalizing..."
+msgstr "最後處理中..."
+
+msgid "Finished converting"
+msgstr "轉換完成"
+
+msgid "Finished installing"
+msgstr "安裝完成"
+
+msgid "Folder"
+msgstr "資料夾"
+
+msgid "Forces a given controller profile"
+msgstr "強制給定的控制器設定檔"
+
+msgid "Format"
+msgstr "格式"
+
+msgid "Formats"
+msgstr "格式"
+
+msgid "Found {0} games, {1} updates, {2} DLCs and {3} save entries"
+msgstr "發現 {0} 個遊戲, {1} 個更新檔, {2} 個 DLC，以及 {3} 個存檔條目"
+
+msgid "Freeze"
+msgstr "凍結"
+
+msgid "French"
+msgstr "法語"
+
+msgid "Friend list"
+msgstr "好友列表"
+
+msgid "Full"
+msgstr "完整 (包括記憶體)"
+
+msgid "Full sync at GX2DrawDone()"
+msgstr "完全同步於 GX2DrawDone()"
+
+msgid "Fullscreen menu bar"
+msgstr "全屏選單欄"
+
+msgid "Fullscreen scaling"
+msgstr "全螢幕縮放選項"
+
+msgid "G&oto Dump"
+msgstr "跳轉到轉儲 | G&oto Dump"
+
+msgid "GDB Stub port"
+msgstr "GDB 存根埠"
+
+msgid "Game"
+msgstr "遊戲"
+
+msgid "Game Paths"
+msgstr "遊戲路徑"
+
+msgid "Game path"
+msgstr "遊戲路徑"
+
+msgid "Game paths"
+msgstr "遊戲路徑"
+
+msgid "GamePad View"
+msgstr "GamePad 檢視"
+
+msgid "GamePad position"
+msgstr "GamePad 顯示位置"
+
+msgid "Gamepad"
+msgstr "GamePad"
+
+msgid "Gamepad channels"
+msgstr "Gamepad 聲道"
+
+msgid "Gamepad volume"
+msgstr "Gamepad 音量"
+
+msgid "Games path already added"
+msgstr "遊戲路徑已新增過"
+
+msgid "Games will be launched with gamepad view toggled as default. The view can be toggled with CTRL + TAB"
+msgstr "將預設以 GamePad 檢視啟動遊戲\n可使用 Ctrl+Tab 切換檢視"
+
+msgid "Gender"
+msgstr "性別"
+
+msgid "General"
+msgstr "通用"
+
+msgid "General settings"
+msgstr "通用設定"
+
+msgid "Generated checksum of game image: {}"
+msgstr "生成了遊戲映像的校驗和：{}"
+
+msgid "Generated checksum of {} game files"
+msgstr "生成了 {} 個遊戲檔案的校驗和"
+
+msgid "Generating checksum of game image: {}"
+msgstr "正在生成遊戲映像的校驗和：{}"
+
+msgid "German"
+msgstr "德語"
+
+msgid "Getting installed title information..."
+msgstr "正在獲取已安裝檔案的資訊..."
+
+msgid "Getting started"
+msgstr "歡迎向導"
+
+msgid "Global"
+msgstr "全域"
+
+msgid "GoTo (CTRL + G)"
+msgstr "轉到 (CTRL + G)"
+
+msgid "GoTo address"
+msgstr "轉到地址"
+
+msgid "Grabbing game files"
+msgstr "抓取遊戲檔案中"
+
+msgid "Graphic"
+msgstr "圖形"
+
+msgid "Graphic pack"
+msgstr "圖形外掛"
+
+msgid "Graphic packs"
+msgstr "圖形外掛"
+
+msgid "Graphic packs cannot be updated while a game is running."
+msgstr "在遊戲執行時無法更新圖形外掛。"
+
+msgid "Graphic packs download"
+msgstr "下載圖形包"
+
+msgid "Graphic packs improve games by offering the possibility to change resolution, tweak FPS or add other visual or gameplay modifications.\nDownload the community graphic packs to get started.\n"
+msgstr "圖形外掛可改善遊戲，如提供更改解析度，調整 FPS 或新增其他視覺及遊戲修改的可能性。\n下載社群圖形外掛以開始使用。\n"
+
+msgid "Graphics"
+msgstr "圖形"
+
+msgid "Graphics API"
+msgstr "圖形 API"
+
+msgid "Graphics Device"
+msgstr "圖形裝置"
+
+msgid "Graphics settings"
+msgstr "圖形設定"
+
+msgid "Hashing game file: {}/{}"
+msgstr "正在計算遊戲檔案雜湊值：{}/{}"
+
+msgid "Hermite"
+msgstr "埃爾米特"
+
+msgid "Hold to confirm"
+msgstr "長按以確認"
+
+msgid "Home"
+msgstr "首頁"
+
+msgid "Hotkey settings"
+msgstr "快速鍵設定"
+
+msgid "Hours: {0} Minutes: {1}"
+msgstr "{0} 小時 {1} 分鐘"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "IP"
+msgstr "IP"
+
+msgid "Icon"
+msgstr "圖示"
+
+msgid "If synchronization is requested by the game, the emulated CPU will wait for the GPU to finish all operations.\nThis is more accurate behavior, but may cause lower performance"
+msgstr "如果遊戲請求同步，則模擬的 CPU 將等待 GPU 完成所有操作。\n這將使模擬更準確，但可能會造成效能降低"
+
+msgid "Import"
+msgstr "匯入"
+
+msgid "Import save entry"
+msgstr "匯入存檔條目"
+
+msgid "Imports a zipped save entry"
+msgstr "匯入壓縮的存檔條目"
+
+msgid "Infinity Base"
+msgstr "無限基數"
+
+msgid "Infinity Figure Creator"
+msgstr "無限圖形建立器"
+
+msgid "Infinity Manager"
+msgstr "無限管理器"
+
+msgid "Infinity figure"
+msgstr "Infinity 公仔"
+
+msgid "Infinity figure creator"
+msgstr "Infinity 公仔建立器"
+
+msgid "Infinity figures"
+msgstr "Infinity 公仔列表"
+
+msgid "Info"
+msgstr "資訊"
+
+msgid "Information"
+msgstr "資訊"
+
+msgid "Initializing"
+msgstr "初始化"
+
+msgid "Initializing emulation"
+msgstr "正在初始化模擬"
+
+msgid "Input binding"
+msgstr "按鍵對應"
+
+msgid "Input overlay"
+msgstr "虛擬按鍵覆蓋層"
+
+msgid "Input overlay settings"
+msgstr "虛擬按鍵設定"
+
+msgid "Input settings"
+msgstr "輸入設定"
+
+msgid "Input text"
+msgstr "輸入文字"
+
+msgid "Inputs opacity"
+msgstr "按鍵不透明度"
+
+msgid "Install title"
+msgstr "安裝檔案"
+
+msgid "Installed"
+msgstr "安裝完成"
+
+msgid "Installed games"
+msgstr "已安裝遊戲"
+
+msgid "Installed only"
+msgstr "僅已安裝"
+
+msgid "Installing"
+msgstr "安裝中"
+
+msgid "Installing DLC..."
+msgstr "安裝 DLC 中..."
+
+msgid "Installing driver in progress"
+msgstr "正在安裝驅動程式"
+
+msgid "Installing system title..."
+msgstr "安裝系統檔案中..."
+
+msgid "Installing title"
+msgstr "正在安裝標題"
+
+msgid "Installing title..."
+msgstr "安裝檔案中..."
+
+msgid "Installing update..."
+msgstr "正在安裝更新..."
+
+msgid "Interface"
+msgstr "介面"
+
+msgid "Invalid TMD"
+msgstr "無效的檔案後設資料 (TMD)"
+
+msgid "Invalid title"
+msgstr "無效的標題"
+
+msgid "IsPasswordCacheEnabled is set to false (The remember password option on your Wii U must be enabled for this account before dumping it)"
+msgstr "IsPasswordCacheEnabled 當前設定為 false (在轉儲此帳號之前， 必須在 Wii U 上為此帳號啟用記住密碼選項)"
+
+msgid "It looks like you're starting Cemu for the first time.\nThis quick setup assistant will help you get the best experience"
+msgstr "看來您是第一次啟動 Cemu。\n本設定嚮導將幫助您獲得最佳體驗"
+
+msgid "It seems that a newer version is already installed, do you still want to install the older version?"
+msgstr "已安裝較新的版本，仍要安裝此舊版本嗎？"
+
+msgid "It seems that the selected title is already installed, do you want to reinstall it?"
+msgstr "此檔案已安裝，仍要覆蓋安裝嗎？"
+
+msgid "It seems that there is already a title installed at the target location but it has a different type.\nCurrently installed: '{}' Installing: '{}'\n\nThis can happen for titles which were installed with very old Cemu versions.\nDo you still want to continue with the installation? It will replace the currently installed title."
+msgstr "似乎在目標位置已有一個不同型別的檔案。\n已安裝的為：“{}”；正在安裝的為：“{}”\n\n如果在非常舊的 Cemu 版本上安裝過此檔案，則可能會引發這種問題。\n您還想繼續安裝程式嗎？這會替換當前已安裝的檔案。"
+
+msgid "Italian"
+msgstr "義大利語"
+
+msgid "JSON file doesn't satisfy needed schema"
+msgstr "JSON檔案不滿足所需的格式"
+
+msgid "JSON parse error: {}"
+msgstr "JSON 解析錯誤：{}"
+
+msgid "Japan"
+msgstr "日本"
+
+msgid "Japanese"
+msgstr "日語"
+
+msgid "Keep aspect ratio"
+msgstr "保持縱橫比"
+
+msgid "Keep outdated cache file"
+msgstr "保留過期的快取檔案"
+
+msgid "Korea"
+msgstr "韓國"
+
+msgid "Korean"
+msgstr "韓語"
+
+msgid "Kotlin libraries:"
+msgstr "Kotlin 函式庫："
+
+msgid "Language"
+msgstr "語言"
+
+msgid "Last played"
+msgstr "上次遊玩時間"
+
+msgid "Latency"
+msgstr "延遲"
+
+msgid "Launch with gamepad view"
+msgstr "以 GamePad 檢視啟動"
+
+msgid "Left"
+msgstr "左"
+
+msgid "Left Axis"
+msgstr "左搖桿"
+
+msgid "Left joystick"
+msgstr "左搖桿"
+
+msgid "Left stick click"
+msgstr "按下左搖桿"
+
+msgid "Lite"
+msgstr "基本"
+
+msgid "Load"
+msgstr "載入"
+
+msgid "Load libraries from the cafeLibs directory"
+msgstr "從 cafeLibs 目錄載入函式庫"
+
+msgid "Load shared libraries"
+msgstr "載入共享庫"
+
+msgid "Location"
+msgstr "位置"
+
+msgid "Locations"
+msgstr "位置列表"
+
+msgid "Log file doesn't exist"
+msgstr "記錄檔不存在"
+
+msgid "Logging in.."
+msgstr "登入中..."
+
+msgid "Logging window"
+msgstr "記錄檔記錄視窗"
+
+msgid "Login failed. Outdated or incomplete online files?"
+msgstr "登陸失敗了。請檢查是否超時，或者線上檔案是否完整？"
+
+msgid "Low battery"
+msgstr "低電量"
+
+msgid "MLC"
+msgstr "MLC"
+
+msgid "MLC Path"
+msgstr "MLC 路徑"
+
+msgid "Makes the \"show screen\" button toggle between the TV and gamepad screens"
+msgstr "讓「切換螢幕」按鈕在 TV 與 GamePad 螢幕之間切換"
+
+msgid "Male"
+msgstr "男"
+
+msgid "Manage list"
+msgstr "管理列表"
+
+msgid "Many"
+msgstr "多數"
+
+msgid "Match emulated display (Experimental)"
+msgstr "匹配模擬的螢幕 (實驗性)"
+
+msgid "Memory Dump"
+msgstr "記憶體轉儲"
+
+msgid "Memory Searcher"
+msgstr "記憶體搜尋器"
+
+msgid "Memory breakpoint"
+msgstr "記憶體斷點"
+
+msgid "Microphone (Experimental)"
+msgstr "麥克風（實驗性）"
+
+msgid "Mii name"
+msgstr "Mii 名稱"
+
+msgid "Min api"
+msgstr "最低 API"
+
+msgid "Minus"
+msgstr "減號 (-)"
+
+msgid "Minutes: {0}"
+msgstr "{0} 分鐘"
+
+msgid "Missing certificate and key files:"
+msgstr "缺少憑證與金鑰檔案："
+
+msgid "Mode"
+msgstr "模式"
+
+msgid "Module"
+msgstr "模組"
+
+msgid "Module&list"
+msgstr "模組列表(&L)"
+
+msgid "Modules"
+msgstr "模組"
+
+msgid "Mono"
+msgstr "單聲道"
+
+msgid "MotionPlus"
+msgstr "體感增強器 (MotionPlus)"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Move here"
+msgstr "移至此處"
+
+msgid "Multi-core recompiler"
+msgstr "多核重編譯器"
+
+msgid "Multiple issues with your game files have been found!\nDo you want to export them to a file?"
+msgstr "發現您的遊戲檔案存在多個問題！\n您想將它們匯出到檔案中嗎?"
+
+msgid "NUS"
+msgstr "NUS"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Nearest Neighbor"
+msgstr "近鄰取樣"
+
+msgid "Nearest neighbor"
+msgstr "最近鄰採樣"
+
+msgid "Network Service"
+msgstr "網路服務"
+
+msgid "Network service"
+msgstr "網路服務"
+
+msgid "Never played"
+msgstr "從未遊玩"
+
+msgid "Next"
+msgstr "下一步"
+
+msgid "Nintendo"
+msgstr "Nintendo"
+
+msgid "No"
+msgstr "否"
+
+msgid "No account selected"
+msgstr "沒有選擇帳號"
+
+msgid "No available figures"
+msgstr "沒有可用的公仔"
+
+msgid "No controllers available"
+msgstr "沒有可用的控制器"
+
+msgid "No emulated USB device is enabled"
+msgstr "未啟用任何模擬 USB 裝置"
+
+msgid "No persistent id entered!"
+msgstr "未輸入 Persistent ID！"
+
+msgid "No update available!"
+msgstr "沒有可用更新！"
+
+msgid "No updates available."
+msgstr "沒有可用更新。"
+
+msgid "None"
+msgstr "無"
+
+msgid "Not a valid NFC NTAG215 file"
+msgstr "不是有效的 NFC NTAG215 檔案"
+
+msgid "Not enough space"
+msgstr "儲存空間不足"
+
+msgid "Not enough space available.\nRequired: {0} MB\nAvailable: {1} MB"
+msgstr "可用空間不足。\n所需空間：{0} MB\n可用空間：{1} MB"
+
+msgid "Not installed"
+msgstr "未安裝"
+
+msgid "Not installed (Partially downloaded)"
+msgstr "未安裝 (部分已下載)"
+
+msgid "Not set"
+msgstr "未設定"
+
+msgid "Notifications"
+msgstr "通知"
+
+msgid "Nunchuck"
+msgstr "雙節棍 (Nunchuck)"
+
+msgid "OK"
+msgstr "好"
+
+msgid "OTP and SEEPROM present but no certificate files were found"
+msgstr "已找到 OTP 與 SEEPROM，但未找到任何憑證檔案"
+
+msgid "OTP.bin or SEEPROM.bin is missing"
+msgstr "缺少 OTP.bin 或 SEEPROM.bin"
+
+msgid "Off"
+msgstr "關閉"
+
+msgid "Offline"
+msgstr "離線"
+
+msgid "On"
+msgstr "開"
+
+msgid "Online Status"
+msgstr "線上模式"
+
+msgid "Online functionality disabled for this account"
+msgstr "此帳號的線上功能已禁用"
+
+msgid "Online play is not set up. Follow the guide below to get started"
+msgstr "未設定線上遊戲。請按照以下指南開始遊戲"
+
+msgid "Online play requirements"
+msgstr "線上遊戲要求"
+
+msgid "Online play tutorial"
+msgstr "線上遊戲教學"
+
+msgid "Online settings"
+msgstr "線上設定"
+
+msgid "Online status"
+msgstr "線上狀態"
+
+msgid "Open Cemu folder"
+msgstr "開啟 Cemu 資料夾"
+
+msgid "Open Infinity Figure dump"
+msgstr "開啟無限圖形轉儲"
+
+msgid "Open Skylander dump"
+msgstr "開啟 Skylander 轉儲"
+
+msgid "Open checksum entry"
+msgstr "開啟 “校驗和” 條目"
+
+msgid "Open directory"
+msgstr "開啟所在目錄"
+
+msgid "Open file to launch"
+msgstr "開啟要啟動的檔案"
+
+msgid "Open file to load"
+msgstr "開啟要載入的檔案"
+
+msgid "Open separate pad screen"
+msgstr "開啟單獨的 Pad 螢幕"
+
+msgid "Open the directory of the save entry"
+msgstr "開啟存檔條目所在的目錄"
+
+msgid "Operation failed"
+msgstr "操作失敗"
+
+msgid "Options"
+msgstr "選項"
+
+msgid "Original authors: {0}"
+msgstr "原始作者：{0}"
+
+msgid "Outdated shader cache"
+msgstr "過時的著色器快取"
+
+msgid "Overlay"
+msgstr "遊戲內覆蓋"
+
+msgid "Overlay controller"
+msgstr "虛擬控制器"
+
+msgid "Overlay settings"
+msgstr "虛擬按鍵設定"
+
+msgid "PPC Debugger"
+msgstr "PPC 偵錯程式"
+
+msgid "PPC threads"
+msgstr "PPC 執行緒"
+
+msgid "Package version"
+msgstr "套件版本"
+
+msgid "Packet delay"
+msgstr "資料包延遲"
+
+msgid "Parsing title content..."
+msgstr "正在解析標題內容..."
+
+msgid "Path"
+msgstr "路徑"
+
+msgid "Paused"
+msgstr "已暫停"
+
+msgid "Permanently delete the save entry"
+msgstr "永久刪除存檔條目"
+
+msgid "PersistentId"
+msgstr "Persistent ID"
+
+msgid "Pick a date"
+msgstr "選擇日期"
+
+msgid "Pick up and place"
+msgstr "拿起並放置"
+
+msgid "Please be aware that online mode lets you connect to OFFICIAL servers and therefore there is a risk of getting banned.\nOnly proceed if you are willing to risk losing online access with your Wii U and/or NNID."
+msgstr "請注意：線上模式將使您連線到官方伺服器，可能會導致封禁。\n如果您願意承擔失去 Wii U 與 NNID 的線上訪問許可權的風險，請繼續操作。"
+
+msgid "Plus"
+msgstr "加號 (+)"
+
+msgid "Port"
+msgstr "埠"
+
+msgid "Portugese"
+msgstr "葡萄牙語"
+
+msgid "Portuguese"
+msgstr "葡萄牙語"
+
+msgid "Position"
+msgstr "位置"
+
+msgid "Press a button"
+msgstr "按下任意按鈕"
+
+msgid "Press a key combination"
+msgstr "按下組合鍵"
+
+msgid "Pressing the screenshot key (F12) will save a screenshot directly to the screenshots folder"
+msgstr "按下螢幕截圖鍵 (F12)，將螢幕截圖直接儲存到 screenshots 資料夾中"
+
+msgid "Pretendo"
+msgstr "Pretendo"
+
+msgid "Prevents the system from activating the screen saver or going to sleep while running a game."
+msgstr "防止系統在執行遊戲時啟用螢幕保護程式或進入睡眠狀態。"
+
+msgid "Previous"
+msgstr "上一步"
+
+msgid "PrincipalId missing"
+msgstr "缺少 PrincipalId"
+
+msgid "Processing..."
+msgstr "處理中..."
+
+msgid "Profile"
+msgstr "設定檔案"
+
+msgid "Progress"
+msgstr "進度"
+
+msgid "Queued"
+msgstr "已加入佇列"
+
+msgid "Quit"
+msgstr "結束"
+
+msgid "RAM usage"
+msgstr "記憶體使用"
+
+msgid "Range"
+msgstr "範圍"
+
+msgid "Reading game image: {0}/{1} kB"
+msgstr "正在讀取遊戲映象：{0}/{1} kB"
+
+msgid "Reading game image: {}"
+msgstr "正在讀取遊戲映像：{}"
+
+msgid "Receive untested updates"
+msgstr "接收未經測試的更新"
+
+msgid "Refresh"
+msgstr "重新整理"
+
+msgid "Refreshing titles"
+msgstr "正在重新整理標題"
+
+msgid "Region"
+msgstr "地區"
+
+msgid "Registers"
+msgstr "暫存器"
+
+msgid "Reload edited shaders"
+msgstr "重新載入編輯過的著色器"
+
+msgid "Remember main window position"
+msgstr "記憶主視窗的位置"
+
+msgid "Remember pad window position"
+msgstr "記憶 Pad 視窗的位置"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove shader caches"
+msgstr "清除著色器快取"
+
+msgid "Remove the shader caches for {0}?"
+msgstr "要清除 {0} 的著色器快取嗎？"
+
+msgid "Removes the currently selected game path from the game list"
+msgstr "從遊戲列表中刪除當前選擇的遊戲路徑"
+
+msgid "Replace TV with PAD"
+msgstr "以 GamePad 替換 TV"
+
+msgid "Requires Wii U GamePad"
+msgstr "需要 Wii U GamePad"
+
+msgid "Reset &order"
+msgstr "重置 排序(&O)"
+
+msgid "Reset &width"
+msgstr "重置 寬度(&W)"
+
+msgid "Reset input overlay"
+msgstr "重設虛擬按鍵覆蓋層"
+
+msgid "Resize"
+msgstr "調整大小"
+
+msgid "Restart"
+msgstr "重新啟動"
+
+msgid "Restart of Cemu required for changes to take effect"
+msgstr "重啟 Cemu 才能使改動生效"
+
+msgid "Restores the last known pad window position and size when opening it"
+msgstr "在啟動 Cemu 時恢復上次的 Pad 視窗尺寸和位置"
+
+msgid "Restores the last known window position and size when starting Cemu"
+msgstr "在啟動 Cemu 時恢復上次的視窗位置"
+
+msgid "Results"
+msgstr "結果"
+
+msgid "Results ({0})"
+msgstr "結果 ({0})"
+
+msgid "Resume"
+msgstr "繼續"
+
+msgid "Retrieving update information..."
+msgstr "檢索更新資訊中..."
+
+msgid "Right"
+msgstr "右"
+
+msgid "Right Axis"
+msgstr "右搖桿"
+
+msgid "Right joystick"
+msgstr "右搖桿"
+
+msgid "Right stick click"
+msgstr "按下右搖桿"
+
+msgid "Rotation"
+msgstr "轉角"
+
+msgid "Rumble"
+msgstr "震動"
+
+msgid "Run (F5)"
+msgstr "執行 (F5)"
+
+msgid "Russian"
+msgstr "俄語"
+
+msgid "Save"
+msgstr "儲存"
+
+msgid "Save Wii U game archive file"
+msgstr "儲存 Wii U 遊戲檔案檔案"
+
+msgid "Save entry (*.zip)"
+msgstr "存檔條目 (*.zip)"
+
+msgid "Save folder"
+msgstr "儲存資料夾"
+
+msgid "Save screenshot"
+msgstr "儲存截圖"
+
+msgid "Save transfer"
+msgstr "存檔轉移"
+
+msgid "Scale"
+msgstr "比例"
+
+msgid "Search"
+msgstr "搜尋"
+
+msgid "Search games"
+msgstr "搜尋遊戲"
+
+msgid "Search graphic packs"
+msgstr "搜尋圖形包"
+
+msgid "Search titles"
+msgstr "搜尋標題"
+
+msgid "Searching for controllers..."
+msgstr "搜尋控制器中..."
+
+msgid "Searching for titles..."
+msgstr "搜尋檔案中..."
+
+msgid "Select"
+msgstr "選取"
+
+msgid "Select MLC directory"
+msgstr "選擇 MLC 目錄"
+
+msgid "Select a controller"
+msgstr "選擇控制器"
+
+msgid "Select a custom mlc path\nThe mlc path is used to store Wii U related files like save games, game updates and dlc data"
+msgstr "選擇自定義的 MLC 路徑\nMLC 路徑用於儲存與 Wii U 相關的檔案，例如儲存存檔、更新檔和 DLC 資料"
+
+msgid "Select a custom path"
+msgstr "選擇自定義路徑"
+
+msgid "Select a directory"
+msgstr "選擇一個目錄"
+
+msgid "Select a directory containing games."
+msgstr "選擇包含遊戲的目錄。"
+
+msgid "Select a figure"
+msgstr "選擇公仔"
+
+msgid "Select a file"
+msgstr "選擇一個檔案"
+
+msgid "Select a file to export the errors"
+msgstr "選擇要匯出錯誤的檔案"
+
+msgid "Select a folder"
+msgstr "選擇一個資料夾"
+
+msgid "Select a mlc directory"
+msgstr "選擇 MLC 目錄"
+
+msgid "Select a target file to export the save entry"
+msgstr "選擇要匯出存檔的目標檔案"
+
+msgid "Select a zipped save file"
+msgstr "選擇一個已經壓縮的存檔檔案"
+
+msgid "Select an account and press Connect"
+msgstr "選擇一個帳號，然後按 \"連線\""
+
+msgid "Select folder of title to install"
+msgstr "選擇欲安裝 檔案 的資料夾"
+
+msgid "Select one of the available audio back ends"
+msgstr "選擇可用的音訊後端"
+
+msgid "Select one of the available graphic back ends"
+msgstr "選擇可用的圖形後端"
+
+msgid "Select the active audio output device for Wii U GamePad"
+msgstr "為 Wii U GamePad 選擇活動的音訊輸出裝置"
+
+msgid "Select the active audio output device for Wii U TV"
+msgstr "為 Wii U TV 選擇活動的音訊輸出裝置"
+
+msgid "Select the folder that stores your update, DLC or base game files"
+msgstr "選擇儲存 更新檔、DLC 或 遊戲本體 檔案的資料夾"
+
+msgid "Select the used graphic device"
+msgstr "選擇使用的圖形裝置"
+
+msgid "Select title to install"
+msgstr "選擇要安裝的檔案"
+
+msgid "Selected account is a valid online account"
+msgstr "所選帳號為有效的線上帳號"
+
+msgid "Selected account is not linked to a NNID or PNID"
+msgstr "所選帳號未連結 NNID 或 PNID"
+
+msgid "Set comment for breakpoint at address %08x"
+msgstr "在地址 %08x 處為斷點設定註釋"
+
+msgid "Set the CPU emulation mode"
+msgstr "設定CPU模擬模式"
+
+msgid "Sets the scale of the notification text"
+msgstr "設定通知的文字大小"
+
+msgid "Sets the scale of the overlay text"
+msgstr "設定遊戲內覆蓋的文字大小"
+
+msgid "Sets the text color of notifications"
+msgstr "設定通知的文字顏色"
+
+msgid "Sets the text color of the overlay"
+msgstr "設定遊戲內覆蓋的文字顏色"
+
+msgid "Settings"
+msgstr "設定"
+
+msgid "Setup all inputs"
+msgstr "設定所有按鍵"
+
+msgid "Shader caches removed"
+msgstr "著色器快取已清除"
+
+msgid "Shader compiler"
+msgstr "著色器編譯器"
+
+msgid "Shader multiplication accuracy"
+msgstr "著色器乘法精度"
+
+msgid "Share log file"
+msgstr "分享記錄檔"
+
+msgid "Show &dlc"
+msgstr "顯示 DLC(&D)"
+
+msgid "Show &game time"
+msgstr "顯示 遊戲時長(&G)"
+
+msgid "Show &last played"
+msgstr "顯示 上次遊玩時間(&L)"
+
+msgid "Show &name"
+msgstr "顯示 名稱(&N)"
+
+msgid "Show &region"
+msgstr "顯示 地區(&R)"
+
+msgid "Show &version"
+msgstr "顯示 版本(&V)"
+
+msgid "Show Emulated USB Devices dialog"
+msgstr "顯示模擬 USB 裝置對話框"
+
+msgid "Show PAD"
+msgstr "顯示 GamePad"
+
+msgid "Show available titles"
+msgstr "顯示可用的檔案"
+
+msgid "Show available updates"
+msgstr "顯示可用的更新檔"
+
+msgid "Show input overlay"
+msgstr "顯示虛擬按鍵覆蓋層"
+
+msgid "Show installed"
+msgstr "顯示已安裝的檔案"
+
+msgid "Show online status"
+msgstr "顯示線上狀態"
+
+msgid "Show only active"
+msgstr "僅顯示活動"
+
+msgid "Show views"
+msgstr "顯示檢視"
+
+msgid "Shows a notification after shaders have been compiled"
+msgstr "著色器編譯完成後顯示通知"
+
+msgid "Shows a notification when a low controller battery has been detected"
+msgstr "當檢測到控制器電量不足時進行提醒"
+
+msgid "Shows friend list related data if online"
+msgstr "線上時顯示好友列表相關資料"
+
+msgid "Single-core interpreter"
+msgstr "單核直譯器"
+
+msgid "Single-core recompiler"
+msgstr "單核重編譯器"
+
+msgid "Size"
+msgstr "大小"
+
+msgid "Skylander"
+msgstr "Skylander"
+
+msgid "Skylander Figure Creator"
+msgstr "Skylander 人偶創作者"
+
+msgid "Skylander figure"
+msgstr "Skylander 公仔"
+
+msgid "Skylander figure creator"
+msgstr "Skylander 公仔建立器"
+
+msgid "Skylanders Manager"
+msgstr "Skylanders 管理器"
+
+msgid "Skylanders Portal"
+msgstr "Skylanders 門戶"
+
+msgid "Skylanders figures"
+msgstr "Skylanders 公仔列表"
+
+msgid "Source"
+msgstr "匯入源"
+
+msgid "Spanish"
+msgstr "西班牙語"
+
+msgid "Special thanks:"
+msgstr "特別感謝："
+
+msgid "Start games with fullscreen"
+msgstr "全屏開始遊戲"
+
+msgid "Starting..."
+msgstr "正在啟動..."
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Step Into (F11)"
+msgstr "單步執行 (F11)"
+
+msgid "Step Over (F10)"
+msgstr "單步執行 (跳過過程) (F10)"
+
+msgid "Stereo"
+msgstr "立體聲"
+
+msgid "Stopping..."
+msgstr "停止中..."
+
+msgid "Stored Entries"
+msgstr "已儲存條目"
+
+msgid "Stretch"
+msgstr "拉伸"
+
+msgid "Style: &Icons"
+msgstr "顯示方式：普通圖示(&I)"
+
+msgid "Style: &List"
+msgstr "顯示方式：列表(&L)"
+
+msgid "Style: &Small Icons"
+msgstr "顯示方式：小圖示(&S)"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Surround"
+msgstr "環繞聲"
+
+msgid "Suspend"
+msgstr "掛起"
+
+msgid "Symbols"
+msgstr "符號"
+
+msgid "System"
+msgstr "系統"
+
+msgid "System data title"
+msgstr "系統資料檔案"
+
+msgid "System driver"
+msgstr "系統預設驅動程式"
+
+msgid "System title"
+msgstr "系統檔案"
+
+msgid "TMD download failed"
+msgstr "檔案後設資料 (TMD) 的下載失敗了"
+
+msgid "TV"
+msgstr "TV 端"
+
+msgid "TV channels"
+msgstr "TV 聲道"
+
+msgid "TV volume"
+msgstr "TV 音量"
+
+msgid "Taiwan"
+msgstr "中國臺灣"
+
+msgid "Taiwanese"
+msgstr "繁體中文"
+
+msgid "Target"
+msgstr "目標帳號"
+
+msgid "Test if the controller is connected"
+msgstr "測試控制器是否連線"
+
+msgid "Text Color"
+msgstr "文字顏色"
+
+msgid "Texture cache"
+msgstr "紋理快取"
+
+msgid "Thanks to our Patreon supporters:"
+msgstr "感謝我們的 Patreon 支援者："
+
+msgid "The (parent) folder of the title you selected is missing at least one of the required subfolders (\"code\", \"content\" and \"meta\")\nMake sure that the files are complete."
+msgstr "您所選擇檔案的（父）資料夾至少缺失一個必須被包含的子資料夾（包括 “code”，“content” 和 “meta”）\n請確保檔案的完整性。"
+
+msgid "The VRAM usage of Cemu in MB"
+msgstr "Cemu 的視訊記憶體使用量 (MB)"
+
+msgid "The controller is already added!"
+msgstr "控制器已新增！"
+
+msgid "The currently installed graphics driver does not support the Vulkan extension necessary for asynchronous shader compilation. Asynchronous compilation cannot be used.\n \nRequired extension: VK_EXT_pipeline_creation_cache_control\n\nInstalling the latest graphics driver may solve this error."
+msgstr "當前安裝的圖形驅動程式不支援非同步著色器編譯所需的 Vulkan 擴充套件。 因此不能使用非同步編譯。\n \n必需的副檔名為：VK_EXT_pipeline_creation_cache_control\n\n安裝最新的圖形驅動程式可能會解決此錯誤。"
+
+msgid "The file you are comparing with is for a different title."
+msgstr "您所比較的檔案是為其他檔案所建立的。"
+
+msgid "The folder you have selected cannot be found on your system."
+msgstr "無法在您的系統中找到您選擇的資料夾。"
+
+msgid "The following content will be converted to a compressed Wii U archive file (.wua)"
+msgstr "以下內容將被轉換為壓縮的 Wii U 封裝檔 (.wua)"
+
+msgid "The following content will be converted to a compressed Wii U archive file (.wua):"
+msgstr "以下內容將被轉換為一個壓縮的 Wii U 檔案檔案 (.wua):"
+
+msgid "The following files are damaged:"
+msgstr "以下檔案已損壞："
+
+msgid "The following files are missing:"
+msgstr "以下檔案已丟失："
+
+msgid "The following prefixes are supported:\n{0}\n{1}\n{2}\n{3}\n{4}"
+msgstr "支援以下篩選字首：\n{0}\n{1}\n{2}\n{3}\n{4}"
+
+msgid "The game path is scanned by Cemu to locate your games. We recommend creating a dedicated directory in which\nyou place all your Wii U games. (example: C:\\wiiu\\games\\)\n\nYou can also set additional paths in the general settings of Cemu."
+msgstr "Cemu 會掃描您設定的遊戲路徑以找到您的遊戲。\n我們建議建立一個專用目錄來放置您所有 Wii U 遊戲。 (例如：C:\\wiiu\\games\\ )\n\n您也可以在 Cemu 的常規設定中設定其他路徑。"
+
+msgid "The given account id is not valid!\nIt must be a hex number bigger or equal than {:08x}"
+msgstr "指定的帳號 ID 無效！\n它必須為大於或等於 {:08x} 的十六進位制數字"
+
+msgid "The mii name is the profile name"
+msgstr "Mii 名稱亦是設定檔名稱"
+
+msgid "The mlc directory contains your save games and installed game update/dlc data"
+msgstr "MLC 目錄包含您的存檔、已安裝 更新檔 和 DLC 資料"
+
+msgid "The mlc path is the root folder of the emulated Wii U internal flash storage. It contains all your saves, installed updates and DLCs.\nIt is strongly recommend that you create a dedicated folder for it (example: C:\\wiiu\\mlc\\) \nIf left empty, the mlc folder will be created inside the Cemu folder."
+msgstr "MLC 路徑是用來模擬 Wii U 內部快閃記憶體空間的根資料夾。 它包含您所有的存檔，已安裝的更新檔和 DLC。\n強烈建議您為其建立一個專用資料夾 (例如：C:\\wiiu\\mlc\\)\n如果保留為空，則將在 Cemu 資料夾內建立 MLC 資料夾。"
+
+msgid "The number of draw calls per frame. Average over last 5 seconds"
+msgstr "每幀的渲染呼叫次數。顯示最近 5 秒的平均值"
+
+msgid "The number of frames per second. Average over last 5 seconds"
+msgstr "每秒幀數。顯示最近 5 秒的平均值"
+
+msgid "The persistent id is the internal folder name used for your saves"
+msgstr "Persistent ID 是用於存檔的內部資料夾名稱"
+
+msgid "The persistent id is the internal folder name used for your saves. Only change this if you are importing saves from a Wii U with a specific id"
+msgstr "Persistent ID 是用於儲存存檔的內部資料夾名稱。 如果需要從具有特定 ID 的 Wii U 入存檔，請更改此設定"
+
+msgid "The persistent id must be greater than {0}!"
+msgstr "Persistent ID 必須大於 {0}！"
+
+msgid "The persistent id must be greater than {:x}!"
+msgstr "Persistent ID 必須大於 {:x}！"
+
+msgid "The persistent id {0} is already in use by account {1}!"
+msgstr "Persistent ID {0} 已被帳號 {1} 使用！"
+
+msgid "The persistent id {:x} is already in use by account {}!"
+msgstr "Persistent ID {:x} 已經被帳號 {} 使用！"
+
+msgid "The verification data doesn't include a WUD hash!"
+msgstr "此驗證資料不包括 WUD 雜湊值!"
+
+msgid "There's a new update available.\nDo you want to update?"
+msgstr "有可用更新。\n是否升級？"
+
+msgid "There's already a file at the target directory:\n{}"
+msgstr "目標目錄中已有檔案：\n{}"
+
+msgid "There's already a save game available for the target account, do you want to overwrite it?\nThis will delete the existing save files for the account and replace them."
+msgstr "目標帳號已經有一個可用的遊戲存檔，您要覆蓋它嗎？\n這將刪除該帳號現有的存檔檔案並替換它們。"
+
+msgid "This account is not linked with an NNID"
+msgstr "此帳號沒有連結到 NNID"
+
+msgid "This game entry seems to be either an update or the base game was merged with update data\nBroken game dumps cause various problems during emulation and may even stop working at all in future Cemu versions\nPlease make sure the base game is intact and install updates only with the File->Install Update/DLC option"
+msgstr "該遊戲條目似乎是更新檔，或是與更新檔資料合併的遊戲本體\n損壞的遊戲轉儲在模擬執行期間會產生各種問題，甚至可能在未來的Cemu版本中根本無法工作\n請確保遊戲本體完好無損，並僅透過 “檔案” 選單 -> “安裝檔案、升級檔或 DLC” 選項來安裝更新"
+
+msgid "This graphic pack has no description"
+msgstr "該圖形外掛無介紹"
+
+msgid "This option requires Win8.1+"
+msgstr "該選項需要 Win8.1 及以上系統"
+
+msgid "This update removed or renamed the following graphic packs:"
+msgstr "此更新刪除或重新命名了以下圖形外掛："
+
+msgid "Thread quantum"
+msgstr "執行緒量子長度為"
+
+msgid "Title ID"
+msgstr "檔案 ID"
+
+msgid "Title Manager"
+msgstr "標題管理器"
+
+msgid "Title checksum of {:08x}-{:08x}"
+msgstr "{:08x}-{:08x} 的 “檔案校驗和”"
+
+msgid "Title installation has been canceled!"
+msgstr "已取消檔案安裝！"
+
+msgid "Title installed!"
+msgstr "檔案已安裝！"
+
+msgid "Title manager"
+msgstr "標題管理器"
+
+msgid "Title name"
+msgstr "標題名稱"
+
+msgid "To use motion input, the controller type must be set to Wii U GamePad"
+msgstr "若要使用體感控制，控制器類型必須設為 Wii U GamePad"
+
+msgid "Toggle Breakpoint (F9)"
+msgstr "切換斷點 (F9)"
+
+msgid "Toggle menu"
+msgstr "切換選單"
+
+msgid "Toggle screen"
+msgstr "切換螢幕"
+
+msgid "Top center"
+msgstr "頂部居中"
+
+msgid "Top left"
+msgstr "左上角"
+
+msgid "Top right"
+msgstr "右上角"
+
+msgid "Total cpu usage in percent for each core"
+msgstr "CPU 各核心分別的使用率 (%)"
+
+msgid "Transfer"
+msgstr "轉移"
+
+msgid "Transfers the save entry to another persistent account id"
+msgstr "將存檔條目轉移到另一個 Persistent 帳號 ID 中"
+
+msgid "Trigger"
+msgstr "肩鍵"
+
+msgid "Trigger an input to bind it to {0}"
+msgstr "按下按鍵以對應至 {0}"
+
+msgid "Triple buffering"
+msgstr "三重緩衝"
+
+msgid "Type"
+msgstr "型別"
+
+msgid "Types"
+msgstr "類型"
+
+msgid "USA"
+msgstr "美國"
+
+msgid "Unable to create file"
+msgstr "無法建立檔案"
+
+msgid "Unable to find the /meta/meta.xml file inside the selected folder."
+msgstr "無法在選定的資料夾中找到 /meta/meta.xml 檔案。"
+
+msgid "Unable to launch game\nPath:\n"
+msgstr "無法載入遊戲路徑：\n"
+
+msgid "Unable to launch game\nPath: {0}"
+msgstr "無法啟動遊戲\n路徑：{0}"
+
+msgid "Unable to launch game because the base files were not found."
+msgstr "由於缺失本體檔案，無法啟動遊戲。"
+
+msgid "Unable to launch title.\nMake sure the configured game paths are still valid and refresh the game list.\n\nPath which failed to load:\n"
+msgstr "無法啟動檔案。\n請確保您設定的遊戲路徑仍然有效，並重新整理遊戲列表。\n\n無法載入的路徑為：\n"
+
+msgid "Unable to mount title.\nMake sure the configured game paths are still valid and refresh the game list.\n\nFile which failed to load:\n"
+msgstr "無法載入檔案。\n請確保您設定的遊戲路徑仍然有效，並重新整理遊戲列表。\n\n無法載入的檔案為：\n"
+
+msgid "Unknown error occured"
+msgstr "發生未知錯誤"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update available"
+msgstr "更新可用"
+
+msgid "Update available!"
+msgstr "更新可用！"
+
+msgid "Update error"
+msgstr "更新錯誤"
+
+msgid "Update installation has been canceled!"
+msgstr "已取消更新檔安裝！"
+
+msgid "Update notification"
+msgstr "更新提醒"
+
+msgid "Update: Not installed"
+msgstr "更新檔：未安裝"
+
+msgid "Update: {}"
+msgstr "更新檔：{}"
+
+msgid "Updated graphic packs are available. Do you want to download and install them?"
+msgstr "有圖形外掛更新可用，是否下載並更新？"
+
+msgid "Updating game list..."
+msgstr "更新遊戲列表中..."
+
+msgid "Updating ticket cache"
+msgstr "更新票證 (Tickets) 快取中"
+
+msgid "Upscale filter"
+msgstr "放大過濾器"
+
+msgid "Upscaling filters are used when the game resolution is smaller than the window size"
+msgstr "當遊戲解析度小於視窗大小時，將使用放大過濾器"
+
+msgid "Use motion"
+msgstr "使用體感"
+
+msgid "Use permanent storage"
+msgstr "使用固定的儲存位置"
+
+msgid "Used libraries and utilities:"
+msgstr "使用的庫和實用程式："
+
+msgid "Used libraries:"
+msgstr "使用的函式庫："
+
+msgid "VRAM usage"
+msgstr "視訊記憶體使用"
+
+msgid "VSync"
+msgstr "垂直同步"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Variant"
+msgstr "款式"
+
+msgid "Vendor"
+msgstr "廠商"
+
+msgid "Verifies the checksum online"
+msgstr "線上驗證校驗和"
+
+msgid "Verifies the checksum with a local JSON file you can select"
+msgstr "用您選擇的本地 JSON 檔案驗證校驗和"
+
+msgid "Verify online"
+msgstr "線上驗證"
+
+msgid "Verify with local file"
+msgstr "同本地檔案進行驗證"
+
+msgid "Verifying"
+msgstr "驗證中"
+
+msgid "Verifying integrity of game files..."
+msgstr "正在驗證遊戲檔案的完整性..."
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Version: {0}"
+msgstr "版本：{0}"
+
+msgid "Vibrate"
+msgstr "震動"
+
+msgid "Visible Inputs"
+msgstr "顯示按鍵"
+
+msgid "Volume"
+msgstr "音量"
+
+msgid "WUA"
+msgstr "WUA"
+
+msgid "WUD"
+msgstr "WUD"
+
+msgid "WUHB"
+msgstr "WUHB"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Warning: Disabling the accurate barriers option will lead to flickering graphics but may improve performance. It is highly recommended to leave it turned on."
+msgstr "警告：禁用 精確同步屏障 選項將導致圖形閃爍，但可能提高效能。強烈建議保持開啟狀態。"
+
+msgid "Wii U Classic Controller"
+msgstr "Wii U 傳統控制器"
+
+msgid "Wii U GamePad"
+msgstr "Wii U GamePad"
+
+msgid "Wii U Pro Controller"
+msgstr "Wii U Pro 控制器"
+
+msgid "Wii U archive (*.wua)"
+msgstr "Wii U 存檔 (*.wua)"
+
+msgid "Wii U executable (*.rpx, *.elf)"
+msgstr "Wii U 可執行檔案 (*.rpx, *.elf)"
+
+msgid "Wii U image (*.wud, *.wux, *.iso, *.wad)"
+msgstr "Wii U 映象檔案 (*.wud, *.wux, *.iso, *.wad)"
+
+msgid "Wiimote"
+msgstr "Wii 遙控器"
+
+msgid "Write stack trace to log"
+msgstr "將堆疊跟蹤寫入記錄檔"
+
+msgid "Wrong region: {}"
+msgstr "錯誤的地區: {}"
+
+msgid "Wrong version: {}"
+msgstr "錯誤的版本: {}"
+
+msgid "Yes"
+msgstr "是"
+
+msgid "You are trying to import a savegame for a different title than your currently selected one: {:016x} vs {:016x}\nAre you sure that you want to continue?"
+msgstr "您正在嘗試為與您已經選擇的不同的檔案匯入遊戲存檔：{:016x} 與 {:016x}\n您確定要繼續嗎？"
+
+msgid "You can configure a custom path for the emulated internal Wii U storage (MLC).\nThis is where Cemu stores saves, accounts and other Wii U system files."
+msgstr "您可以為模擬的內部 Wii U 儲存（MLC）設定自定義路徑。\n這是 Cemu 儲存儲存、帳號和其他 Wii U 系統檔案的地方。"
+
+msgid "You can configure one controller for each player.\nWe advise you to always use GamePad as emulated input for the first player, since many games expect the GamePad to be present.\nIt is also required for touch functionality.\nThe default global hotkeys are:\nCTRL - show pad screen\nCTRL + TAB - toggle pad screen\nALT + ENTER - toggle fullscreen\nESC - leave fullscreen\n\nIf you're having trouble configuring your controller, make sure to have it in idle state and press calibrate.\nAlso don't set the axis deadzone too low."
+msgstr "您可以為每個玩家設定一個控制器。\n我們建議您始終將 GamePad 用作第一位玩家的模擬輸入，因為許多遊戲都需要 GamePad 存在。\n觸控功能同樣需要 GamePad。\n預設的全域性熱鍵是：\nCTRL - 顯示鍵盤螢幕\nCTRL + TAB - 切換 Pad 螢幕\nALT + ENTER - 切換全屏\nESC - 關閉全屏\n\n如果在設定控制器時遇到問題，請確保使其處於非操作狀態，然後按校準。\n注意：不要將遙感的死區設定得太小。"
+
+msgid "You have to restart the game in order to apply the new settings."
+msgstr "重啟遊戲以應用新設定。"
+
+msgid "You may need to set them up again."
+msgstr "您可能需要再次設定它們。"
+
+msgid "You've played"
+msgstr "遊戲時長"
+
+msgid "Your account is a valid online account"
+msgstr "您的帳號是有效的線上帳號"
+
+msgid "Your entered value is not valid for the selected datatype."
+msgstr "輸入的值對所選資料型別無效。"
+
+msgid "Your game files are valid"
+msgstr "您的遊戲檔案有效"
+
+msgid "Your game image is invalid!\n\nYour hash:\n{}\n\nExpected hash:\n{}"
+msgstr "您的遊戲映像無效！\n\n您的雜湊值：\n{}\n\n預期的雜湊值：\n{}"
+
+msgid "Your mlc01 folder seems to be missing.\n\nThis is where Cemu stores save files, game updates and other Wii U files.\n\nThe expected path is:\n{}\n\nDo you want to create the folder at the expected path?"
+msgstr "無法找到 mlc01 資料夾\n\n該資料夾被用以儲存遊戲存檔、更新檔和其他Wii U檔案\n\n預期路徑為：\n{}\n\n是否要在預期路徑處建立資料夾？"
+
+msgid "base"
+msgstr "本體"
+
+msgid "blow mic"
+msgstr "麥克風"
+
+msgid "can't delete profile"
+msgstr "無法刪除設定檔"
+
+msgid "click"
+msgstr "點選"
+
+msgid "controller set by gameprofile. changes won't be saved permanently!"
+msgstr "此控制器由遊戲設定檔設定。變動將不會永久儲存！"
+
+msgid "couldn't load profile"
+msgstr "無法載入設定檔"
+
+msgid "couldn't save profile"
+msgstr "無法儲存設定檔"
+
+msgid "cycles"
+msgstr "個週期"
+
+msgid "dlc"
+msgstr "DLC / 附加內容"
+
+msgid "down"
+msgstr "下"
+
+msgid "false"
+msgstr "關閉"
+
+msgid "home"
+msgstr "主頁"
+
+msgid "invalid profile name"
+msgstr "無效的設定檔名稱"
+
+msgid "left"
+msgstr "左"
+
+msgid "many"
+msgstr "多區域"
+
+msgid "minimal"
+msgstr "最小"
+
+msgid "mlc01 path"
+msgstr "mlc01 路徑"
+
+msgid "never"
+msgstr "從未"
+
+msgid "otp.bin could not be found"
+msgstr "找不到 otp.bin"
+
+msgid "otp.bin is corrupted or has invalid size"
+msgstr "otp.bin 已損壞或大小無效"
+
+msgid "otp.bin is invalid"
+msgstr "otp.bin 無效"
+
+msgid "otp.bin missing in Cemu directory"
+msgstr "Cemu 目錄缺少 otp.bin"
+
+msgid "profile deleted"
+msgstr "已刪除設定檔"
+
+msgid "profile loaded"
+msgstr "已載入設定檔"
+
+msgid "profile saved"
+msgstr "已儲存設定檔"
+
+msgid "right"
+msgstr "右"
+
+msgid "save"
+msgstr "存檔"
+
+msgid "seeprom.bin could not be found"
+msgstr "找不到 seeprom.bin"
+
+msgid "seeprom.bin is corrupted or has invalid size"
+msgstr "seeprom.bin 損壞或大小無效"
+
+msgid "seeprom.bin is invalid"
+msgstr "seeprom.bin 無效"
+
+msgid "seeprom.bin missing in Cemu directory"
+msgstr "Cemu 目錄缺少 seeprom.bin"
+
+msgid "show screen"
+msgstr "顯示螢幕"
+
+msgid "true"
+msgstr "開啟"
+
+msgid "unknown"
+msgstr "未知"
+
+msgid "up"
+msgstr "上"
+
+msgid "update"
+msgstr "更新檔"
+
+msgid "{} files have an invalid hash!\nDo you want to export a list of them to a file?"
+msgstr "{} 個檔案的雜湊值無效！\n您想將無效檔案的列表匯出到一個檔案中嗎？"

@@ -1,0 +1,118 @@
+name: Build Android APK
+
+on:
+  push:
+    branches:
+      - main-zh
+  workflow_dispatch:
+    inputs:
+      version_major:
+        description: "Version major"
+        required: false
+        default: "0"
+      version_minor:
+        description: "Version minor"
+        required: false
+        default: "5.2"
+
+permissions:
+  contents: write
+  packages: write
+
+env:
+  VCPKG_ROOT: "${{github.workspace}}/dependencies/vcpkg"
+  VCPKG_BINARY_SOURCES: "clear;nuget,GitHub,readwrite"
+  VCPKG_FORCE_DOWNLOADED_BINARIES: true
+
+jobs:
+  build-android:
+    name: Build Cemu Android (Handheld Coexistence)
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+          fetch-depth: 0
+
+      - name: Install system dependencies
+        run: |
+          sudo apt update -qq
+          sudo apt install -y gettext mono-complete
+
+      - name: Uncompile message catalogs
+        run: |
+          for mo_file in bin/resources/*/cemu.mo
+          do
+            echo $mo_file
+            language_code=$(basename $(dirname $mo_file))
+            po_file=src/android/app/src/main/assets/translations/$language_code/cemu.po
+            mkdir -p $(dirname $po_file)
+            msgunfmt $mo_file -o $po_file || echo "Failed to uncompile message catalog from $mo_file"
+          done
+
+      - name: Setup vcpkg binary cache
+        uses: ./.github/actions/set-up-vcpkg-binary-cache-action
+        continue-on-error: true
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Build Cemu APK
+        env:
+          ANDROID_STORE_FILE_BASE64: ${{ secrets.ANDROID_STORE_FILE_BASE64 }}
+          ANDROID_KEY_STORE_PASSWORD: ${{ secrets.ANDROID_KEY_STORE_PASSWORD }}
+          ANDROID_KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          EMULATOR_VERSION_MAJOR: ${{ inputs.version_major || '0' }}
+          EMULATOR_VERSION_MINOR: ${{ inputs.version_minor || '5.2' }}
+        run: |
+          export JAVA_HOME=$JAVA_HOME_21_X64
+
+          cd ./src/android
+
+          if [[ -n "$ANDROID_STORE_FILE_BASE64" ]]; then
+            base64 --decode <<< "${ANDROID_STORE_FILE_BASE64}" > store.jks
+            export ANDROID_STORE_FILE=$(pwd)/store.jks
+            echo "Android signing store file has been set up."
+          else
+            echo "No Android signing store file provided. The APK will be signed with the default debug key."
+          fi
+
+          ./gradlew assembleRelease
+
+      - name: Prepare release artifact
+        run: |
+          mkdir -p upload
+          find ./src/android/app/build/outputs/apk/ -type f -name "*.apk" -exec cp {} upload/ \;
+          APK_FILE=$(find upload/ -type f -name "*release*.apk" | head -n 1)
+          if [[ -z "$APK_FILE" ]]; then
+            APK_FILE=$(find upload/ -type f -name "*.apk" | head -n 1)
+          fi
+          echo "Selected APK: $APK_FILE"
+          # Standard handheld coexistence naming: strictly ending in -zh.apk
+          cp "$APK_FILE" upload/Cemu-zh.apk
+          # Remove non-zh APKs to prevent duplicate/ambiguous downloads
+          find upload/ -type f -name "*.apk" ! -name "*-zh.apk" -delete
+          ls -la upload/
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Cemu-zh
+          path: upload/Cemu-zh.apk
+
+      - name: Create or update GitHub Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main-zh'
+        with:
+          tag_name: v0.5.2-zh
+          name: "Cemu-zh v0.5.2"
+          body: |
+            ### 🇹🇼 Cemu-zh (Wii U 模擬器掌機繁體中文化獨立共存版)
+
+            本版本專為 Android 掌機（如 AYN Thor、AYN Odin 2、Retroid Pocket 等）獨立共存與繁體中文化打造：
+            - **🏷️ 獨立共存套件名稱**：`info.cemu.cemu.zh`（應用程式名稱：`Cemu-zh`），可與原版 Cemu 完美獨立共存。
+            - **🇹🇼 100% 台灣繁體中文化**：全面涵蓋 C++ 核心（766 條）與 Android Jetpack Compose 專有介面（214 條），符合台灣科技標準用語（螢幕、記憶體、預設、著色器快取、非同步管線編譯、控制器、資料夾等）。
+            - **📱 Android 13+ 原生熱切換**：整合原生 `LocaleManager` 動態切換機制，並在繁中系統語系環境下初次啟動自動套用繁體中文。
+            - **🎮 雙螢幕與外接螢幕最佳化**：基於 SapphireRhodonite 雙螢幕加強分支，支援雙螢幕分離、自訂圖形包目錄與自訂驅動載入。
+          files: upload/Cemu-zh.apk

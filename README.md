@@ -1,3 +1,5 @@
+**English** | [台灣繁體中文](README.zh-TW.md)
+
 # **Cemu - Android Port (Wii U Emulator)**
 
 This is the Android port of **Cemu**, a Wii U emulator written in C/C++.

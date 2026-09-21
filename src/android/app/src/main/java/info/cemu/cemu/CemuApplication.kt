@@ -43,8 +43,15 @@ class CemuApplication : Application() {
     private fun initializeTranslations() {
         setTranslations(this)
 
-        val language = runBlocking {
+        val savedLanguage = runBlocking {
             AppSettingsStore.dataStore.data.map { it.guiSettings.language }.first()
+        }
+
+        val language = if (savedLanguage.isNotEmpty() && savedLanguage != "en") {
+            savedLanguage
+        } else {
+            val systemLang = java.util.Locale.getDefault().language
+            if (systemLang == "zh") "zh" else savedLanguage
         }
 
         setLanguage(language, this)

@@ -78,41 +78,49 @@ jobs:
             echo "No Android signing store file provided. The APK will be signed with the default debug key."
           fi
 
-          ./gradlew assembleRelease
+          # 1. 建置獨立共存版 (info.cemu.cemu.zh)
+          ./gradlew assembleRelease -PcustomAppId=info.cemu.cemu.zh
+          mkdir -p ../../upload
+          APK_COEXIST=$(find app/build/outputs/apk -type f -name "*release*.apk" -o -name "*.apk" | head -n 1)
+          cp "$APK_COEXIST" ../../upload/Cemu-coexist-zh.apk
+          rm -rf app/build/outputs/apk
+
+          # 2. 建置原版取代版 (info.cemu.cemu)
+          ./gradlew assembleRelease -PcustomAppId=info.cemu.cemu
+          APK_REPLACE=$(find app/build/outputs/apk -type f -name "*release*.apk" -o -name "*.apk" | head -n 1)
+          cp "$APK_REPLACE" ../../upload/Cemu-replace-zh.apk
 
       - name: Prepare release artifact
         run: |
-          mkdir -p upload
-          find ./src/android/app/build/outputs/apk/ -type f -name "*.apk" -exec cp {} upload/ \;
-          APK_FILE=$(find upload/ -type f -name "*release*.apk" | head -n 1)
-          if [[ -z "$APK_FILE" ]]; then
-            APK_FILE=$(find upload/ -type f -name "*.apk" | head -n 1)
-          fi
-          echo "Selected APK: $APK_FILE"
-          # Standard handheld coexistence naming: strictly ending in -zh.apk
-          cp "$APK_FILE" upload/Cemu-zh.apk
-          # Remove non-zh APKs to prevent duplicate/ambiguous downloads
-          find upload/ -type f -name "*.apk" ! -name "*-zh.apk" -delete
           ls -la upload/
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: Cemu-zh
-          path: upload/Cemu-zh.apk
+          path: upload/*.apk
 
       - name: Create or update GitHub Release
         uses: softprops/action-gh-release@v2
         if: github.ref == 'refs/heads/main-zh'
         with:
           tag_name: v0.5.2-zh
-          name: "Cemu-zh v0.5.2"
+          name: "Cemu-zh v0.5.2 (共存版 / 取代版)"
           body: |
-            ### 🇹🇼 Cemu-zh (Wii U 模擬器掌機繁體中文化獨立共存版)
+            ### 🇹🇼 Cemu-zh (Wii U 模擬器掌機繁體中文化版)
 
-            本版本專為 Android 掌機（如 AYN Thor、AYN Odin 2、Retroid Pocket 等）獨立共存與繁體中文化打造：
-            - **🏷️ 獨立共存套件名稱**：`info.cemu.cemu.zh`（應用程式名稱：`Cemu-zh`），可與原版 Cemu 完美獨立共存。
-            - **🇹🇼 100% 台灣繁體中文化**：全面涵蓋 C++ 核心（766 條）與 Android Jetpack Compose 專有介面（214 條），符合台灣科技標準用語（螢幕、記憶體、預設、著色器快取、非同步管線編譯、控制器、資料夾等）。
-            - **📱 Android 13+ 原生熱切換**：整合原生 `LocaleManager` 動態切換機制，並在繁中系統語系環境下初次啟動自動套用繁體中文。
+            本版本專為 Android 掌機（如 AYN Thor、AYN Odin 2、Retroid Pocket 等）繁體中文化打造：
+            - **🇹🇼 100% 台灣繁體中文化**：全面涵蓋 C++ 核心與 Android Jetpack Compose 專有介面，符合台灣科技標準用語（螢幕、記憶體、預設、著色器快取、非同步管線編譯、控制器、資料夾等）。
+            - **📱 Android 13+ 原生熱切換**：整合原生 `LocaleManager` 動態切換機制，繁中系統語系環境下初次啟動自動套用。
             - **🎮 雙螢幕與外接螢幕最佳化**：基於 SapphireRhodonite 雙螢幕加強分支，支援雙螢幕分離、自訂圖形包目錄與自訂驅動載入。
-          files: upload/Cemu-zh.apk
+
+            #### 📦 版本選擇指南：
+            1. **`Cemu-coexist-zh.apk`（獨立共存版）**
+               - **套件名稱**：`info.cemu.cemu.zh`
+               - 可與原版 Cemu 完美獨立共存安裝，設定與資料完全獨立。
+            2. **`Cemu-replace-zh.apk`（原版取代版）**
+               - **套件名稱**：`info.cemu.cemu`（同官方原版套件名稱）
+               - 可直接覆蓋取代原版，掌機前端（如 Daijishō、Pegasus、ES-DE）無需修改任何 Player 設定即可直接喚醒啟動！
+          files: |
+            upload/Cemu-coexist-zh.apk
+            upload/Cemu-replace-zh.apk

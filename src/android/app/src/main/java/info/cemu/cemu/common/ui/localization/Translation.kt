@@ -58,23 +58,26 @@ data class Language(val code: String, val displayName: String)
 
 fun getAvailableLanguages() =
     Translations.map {
-        val name = if (it.locale.language == "zh" || it.locale.language == "zh_tw") {
+        val name = if (it.locale.language.lowercase().startsWith("zh")) {
             "繁體中文 (台灣)"
         } else {
             it.locale.getDisplayName(it.locale).replaceFirstChar { char -> char.uppercase() }
         }
         Language(it.locale.language, name)
-    }.distinctBy { it.code }
+    }.distinctBy { it.displayName }
 
 fun setLanguage(languageCode: String, context: Context) {
-    val translation = Translations.firstOrNull { it.locale.language == languageCode } ?: return
+    val targetCode = if (languageCode.lowercase().startsWith("zh")) "zh_TW" else languageCode
+    val translation = Translations.firstOrNull { it.locale.language.equals(targetCode, ignoreCase = true) } 
+        ?: Translations.firstOrNull { it.locale.language.lowercase().startsWith("zh") }
+        ?: return
     translation.load(context)
     CurrentLocale = translation.locale
 
     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
         try {
             val localeManager = context.getSystemService(android.app.LocaleManager::class.java)
-            val tag = if (languageCode == "zh" || languageCode == "zh_tw") "zh-TW" else languageCode
+            val tag = if (targetCode.lowercase().startsWith("zh")) "zh-TW" else targetCode
             localeManager?.applicationLocales = android.os.LocaleList.forLanguageTags(tag)
         } catch (_: Exception) {}
     }

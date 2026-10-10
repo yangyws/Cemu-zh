@@ -51,7 +51,7 @@ class CemuApplication : Application() {
             savedLanguage
         } else {
             val systemLang = java.util.Locale.getDefault().language
-            if (systemLang == "zh") "zh" else savedLanguage
+            if (systemLang == "zh") "zh_TW" else savedLanguage
         }
 
         setLanguage(language, this)

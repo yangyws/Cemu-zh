@@ -307,10 +307,7 @@ def main():
 
     # Output targets
     po_targets = [
-        'bin/resources/zh_TW/cemu.po',
-        'bin/resources/zh/cemu.po',
         'src/android/app/src/main/assets/translations/zh_TW/cemu.po',
-        'src/android/app/src/main/assets/translations/zh/cemu.po',
     ]
     mo_targets = [
         'bin/resources/zh_TW/cemu.mo',

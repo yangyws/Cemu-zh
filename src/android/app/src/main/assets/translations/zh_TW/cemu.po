@@ -3146,3 +3146,69 @@ msgstr "在刪除先前的資料路徑前請先重新啟動 Cemu。"
 
 msgid "Unable to delete previous data location."
 msgstr "無法刪除先前的資料路徑。"
+
+msgid "Play Set/Power Disc"
+msgstr "遊戲套裝 / 能力光碟"
+
+msgid "Power Disc Two"
+msgstr "能力光碟 二"
+
+msgid "Power Disc Three"
+msgstr "能力光碟 三"
+
+msgid "Player One"
+msgstr "玩家 一"
+
+msgid "Player One Ability One"
+msgstr "玩家 一 能力一"
+
+msgid "Player One Ability Two"
+msgstr "玩家 一 能力二"
+
+msgid "Player Two"
+msgstr "玩家 二"
+
+msgid "Player Two Ability One"
+msgstr "玩家 二 能力一"
+
+msgid "Player Two Ability Two"
+msgstr "玩家 二 能力二"
+
+msgid "Unable to keep SAF permission for the selected custom root."
+msgstr "無法保留所選自訂根目錄的 SAF 存取權限。"
+
+msgid "Custom root is not available. Cemu is using the local mirror until SAF access returns."
+msgstr "自訂根目錄無法存取。在 SAF 權限恢復前，Cemu 將使用本機鏡像。"
+
+msgid "Save sync failed. Cemu is using the local mirror."
+msgstr "存檔同步失敗。Cemu 目前使用本機鏡像。"
+
+msgid "Selected custom root is not available."
+msgstr "所選的自訂根目錄無法存取。"
+
+msgid "Selected custom root must allow read and write access."
+msgstr "所選的自訂根目錄必須具備讀取與寫入權限。"
+
+msgid "Selected folder is not empty and does not look like a Cemu data root."
+msgstr "所選資料夾不是空的，且看起來不像是 Cemu 資料根目錄。"
+
+msgid "Custom root mirror cannot be nested inside the current data root."
+msgstr "自訂根目錄鏡像不可巢狀置於目前的資料根目錄內部。"
+
+msgid "Custom root is not available. Save data remains in the local mirror."
+msgstr "自訂根目錄無法存取。存檔資料仍保留在本機鏡像中。"
+
+msgid "Unable to sync saves to the custom root."
+msgstr "無法將存檔同步至自訂根目錄。"
+
+msgid "Unable to sync save changes to the custom root."
+msgstr "無法將存檔變更同步至自訂根目錄。"
+
+msgid "Custom root is not available. Unable to export manual data."
+msgstr "自訂根目錄無法存取。無法匯出手動資料。"
+
+msgid "Target root has no parent"
+msgstr "目標根目錄缺少上層目錄"
+
+msgid "Migration verification failed."
+msgstr "遷移驗證失敗。"

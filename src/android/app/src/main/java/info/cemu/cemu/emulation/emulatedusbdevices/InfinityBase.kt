@@ -46,7 +46,7 @@ fun InfinityBaseTab(
             horizontalArrangement = Arrangement.spacedBy(8.dp),
         ) {
             Column {
-                Text(text = label, fontWeight = FontWeight.Medium, fontSize = 18.sp)
+                Text(text = tr(label), fontWeight = FontWeight.Medium, fontSize = 18.sp)
                 Text(text = slot ?: tr("None"), fontSize = 16.sp)
             }
             Spacer(modifier = Modifier.weight(1f))

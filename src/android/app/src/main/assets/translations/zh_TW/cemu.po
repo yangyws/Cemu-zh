@@ -2942,3 +2942,81 @@ msgstr "更新檔"
 
 msgid "{} files have an invalid hash!\nDo you want to export a list of them to a file?"
 msgstr "{} 個檔案的雜湊值無效！\n您想將無效檔案的列表匯出到一個檔案中嗎？"
+
+msgid "External PAD screen"
+msgstr "外部 GamePad 螢幕"
+
+msgid "Rotate external screen left"
+msgstr "外部螢幕向左旋轉 90 度"
+
+msgid "Swap screens"
+msgstr "交換螢幕畫面"
+
+msgid "Data storage"
+msgstr "資料儲存位置"
+
+msgid "Choose custom root"
+msgstr "選擇自訂根目錄"
+
+msgid "Choose where Cemu stores saves, MLC, settings and cache"
+msgstr "選擇 Cemu 儲存存檔、MLC、設定與快取的路徑"
+
+msgid "Choose a folder for portable Cemu data. Game saves sync automatically; other data syncs manually."
+msgstr "選擇便攜式 Cemu 資料資料夾。遊戲存檔會自動同步，其他資料需手動同步。"
+
+msgid "Close emulation before changing data storage or importing manual data."
+msgstr "在變更資料儲存位置或手動匯入資料前，請先關閉遊戲模擬。"
+
+msgid "Restart Cemu to activate the configured storage location."
+msgstr "請重新啟動 Cemu 以套用新設定的儲存路徑。"
+
+msgid "Unsynced save changes"
+msgstr "未同步的存檔變更"
+
+msgid "Sync saves now"
+msgstr "立即同步存檔"
+
+msgid "Import saves from custom root"
+msgstr "從自訂根目錄匯入存檔"
+
+msgid "Import manual data"
+msgstr "手動匯入資料"
+
+msgid "Export manual data"
+msgstr "手動匯出資料"
+
+msgid "Use default app storage"
+msgstr "使用預設應用程式儲存空間"
+
+msgid "Delete previous data location"
+msgstr "刪除先前的資料路徑"
+
+msgid "Copy the latest game saves to the custom folder."
+msgstr "將最新的遊戲存檔複製到自訂資料夾。"
+
+msgid "Copy game saves from the custom folder into Cemu."
+msgstr "從自訂資料夾將遊戲存檔複製至 Cemu。"
+
+msgid "Copy settings, controller profiles, and keys from the custom folder. Saves, games, updates, graphic packs, logs, and shader cache are not copied."
+msgstr "從自訂資料夾複製設定、控制器設定檔與金鑰。存檔、遊戲、更新檔、圖形包、記錄檔與著色器快取不會被複製。"
+
+msgid "Copy settings, controller profiles, and keys to the custom folder. Saves, games, updates, graphic packs, logs, and shader cache are not copied."
+msgstr "將設定、控制器設定檔與金鑰複製至自訂資料夾。存檔、遊戲、更新檔、圖形包、記錄檔與著色器快取不會被複製。"
+
+msgid "Migrate data back to default app-specific storage. Restart Cemu after migration."
+msgstr "將資料遷移回預設應用程式專屬儲存空間。遷移後請重啟 Cemu。"
+
+msgid "Only do this when emulation is closed. Cemu will migrate current local data back to default app storage."
+msgstr "請僅在模擬關閉時執行此操作。Cemu 會將目前的本機資料遷移回預設應用程式空間。"
+
+msgid "Only do this after restarting Cemu and confirming the new data location works."
+msgstr "請僅在重啟 Cemu 並確認新資料路徑可正常運作後，再執行此操作。"
+
+msgid "This updates local settings, controller profiles, and keys from the custom folder. Saves, games, updates, graphic packs, logs, account data, and shader cache are not replaced by this action."
+msgstr "此操作會從自訂資料夾更新本機設定、控制器設定檔與金鑰。存檔、遊戲、更新檔、圖形包、記錄檔、帳號資料與著色器快取將不受影響。"
+
+msgid "Import"
+msgstr "匯入"
+
+msgid "Use default"
+msgstr "使用預設"

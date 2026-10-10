@@ -257,7 +257,7 @@ private fun InfoLabel(label: String, value: String) {
         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
     )
     Text(
-        text = value,
+        text = tr(value),
         modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp),
     )
 }

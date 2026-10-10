@@ -3020,3 +3020,129 @@ msgstr "匯入"
 
 msgid "Use default"
 msgstr "使用預設"
+
+msgid "Status"
+msgstr "狀態"
+
+msgid "Current storage"
+msgstr "目前儲存路徑"
+
+msgid "Storage after restart"
+msgstr "重啟後的儲存路徑"
+
+msgid "Custom folder"
+msgstr "自訂資料夾"
+
+msgid "Save sync"
+msgstr "存檔同步"
+
+msgid "Manual data sync"
+msgstr "手動資料同步"
+
+msgid "Last save sync"
+msgstr "上次存檔同步時間"
+
+msgid "Last manual sync"
+msgstr "上次手動同步時間"
+
+msgid "Never"
+msgstr "從未"
+
+msgid "Using default app storage."
+msgstr "使用預設應用程式專屬儲存空間。"
+
+msgid "Game saves sync automatically with the custom folder."
+msgstr "遊戲存檔會自動與自訂資料夾同步。"
+
+msgid "Restart Cemu to finish changing the storage location."
+msgstr "請重新啟動 Cemu 以完成變更儲存路徑。"
+
+msgid "Game saves sync automatically"
+msgstr "遊戲存檔自動同步"
+
+msgid "Choose a custom folder to enable save sync"
+msgstr "選擇自訂資料夾以啟用存檔同步"
+
+msgid "Settings, controller profiles, and keys sync only when you tap import or export"
+msgstr "設定、控制器設定檔與金鑰僅在點選匯入或匯出時同步"
+
+msgid "Choose a custom folder to enable manual import and export"
+msgstr "選擇自訂資料夾以啟用手動匯入與匯出"
+
+msgid "Configuring custom root..."
+msgstr "正在設定自訂根目錄..."
+
+msgid "Custom root configured. Restart Cemu before launching games from the new location."
+msgstr "自訂根目錄已設定。在從新路徑啟動遊戲前，請先重新啟動 Cemu。"
+
+msgid "Unable to configure custom root."
+msgstr "無法設定自訂根目錄。"
+
+msgid "Syncing saves..."
+msgstr "正在同步存檔..."
+
+msgid "Saves synced."
+msgstr "存檔已成功同步。"
+
+msgid "Unable to sync saves. Check SAF access."
+msgstr "無法同步存檔，請確認 SAF 存取權限。"
+
+msgid "Importing saves..."
+msgstr "正在匯入存檔..."
+
+msgid "Saves imported from custom root."
+msgstr "已從自訂根目錄成功匯入存檔。"
+
+msgid "Unable to import saves."
+msgstr "無法匯入存檔。"
+
+msgid "Exporting manual data..."
+msgstr "正在匯出手動資料..."
+
+msgid "Manual data exported."
+msgstr "手動資料已成功匯出。"
+
+msgid "Unable to export manual data."
+msgstr "無法匯出手動資料。"
+
+msgid "Importing manual data..."
+msgstr "正在匯入手動資料..."
+
+msgid "Manual data imported. Restart Cemu before launching games."
+msgstr "手動資料已成功匯入。在啟動遊戲前請先重新啟動 Cemu。"
+
+msgid "Unable to import manual data."
+msgstr "無法匯入手動資料。"
+
+msgid "Switching to default app storage..."
+msgstr "正在切換回預設應用程式儲存空間..."
+
+msgid "Default app storage configured. Restart Cemu before launching games from the new location."
+msgstr "已設定為預設應用程式儲存空間。在從新路徑啟動遊戲前，請先重新啟動 Cemu。"
+
+msgid "Unable to use default app storage."
+msgstr "無法切換為預設應用程式儲存空間。"
+
+msgid "Deleting previous data location..."
+msgstr "正在刪除先前的資料路徑..."
+
+msgid "Previous data location deleted."
+msgstr "先前的資料路徑已成功刪除。"
+
+msgid "Close emulation before importing saves."
+msgstr "在匯入存檔前請先關閉遊戲模擬。"
+
+msgid "Close emulation before exporting manual data."
+msgstr "在匯出資料前請先關閉遊戲模擬。"
+
+msgid "Close emulation before deleting the previous data location."
+msgstr "在刪除先前的資料路徑前請先關閉遊戲模擬。"
+
+msgid "There is no previous data location to delete."
+msgstr "沒有先前的資料路徑可供刪除。"
+
+msgid "Restart Cemu before deleting the previous data location."
+msgstr "在刪除先前的資料路徑前請先重新啟動 Cemu。"
+
+msgid "Unable to delete previous data location."
+msgstr "無法刪除先前的資料路徑。"

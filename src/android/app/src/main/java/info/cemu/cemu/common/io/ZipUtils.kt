@@ -33,6 +33,7 @@ private fun extractZipEntry(
         file.apply { if (!isDirectory) mkdirs() }
         return
     }
+    file.parentFile?.mkdirs()
     FileOutputStream(file).use { fileOutputStream ->
         var bytesRead: Int
         while ((zipInputStream.read(buffer).also { bytesRead = it }) > 0) {

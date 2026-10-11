@@ -21,7 +21,7 @@ data class EmulationSettings(
 
 @Serializable
 data class GuiSettings(
-    val language: String = DEFAULT_LANGUAGE,
+    val language: String = info.cemu.cemu.common.ui.localization.SYSTEM_DEFAULT_LANGUAGE,
 )
 
 @Serializable

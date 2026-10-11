@@ -57,11 +57,15 @@ class CemuApplication : Application() {
             AppSettingsStore.dataStore.data.map { it.guiSettings.language }.first()
         }
 
-        val language = if (savedLanguage.isNotEmpty() && savedLanguage != "en") {
-            savedLanguage
-        } else {
-            val systemLang = java.util.Locale.getDefault().language
-            if (systemLang == "zh") "zh_TW" else savedLanguage
+        val defaultLocale = java.util.Locale.getDefault()
+        val isSystemChinese = defaultLocale.language.equals("zh", ignoreCase = true)
+
+        val language = when {
+            savedLanguage.isEmpty() || savedLanguage == "system" -> {
+                if (isSystemChinese) "zh_TW" else "system"
+            }
+            savedLanguage.lowercase().startsWith("zh") -> "zh_TW"
+            else -> savedLanguage
         }
 
         setLanguage(language, this)

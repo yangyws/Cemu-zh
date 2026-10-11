@@ -3212,3 +3212,6 @@ msgstr "目標根目錄缺少上層目錄"
 
 msgid "Migration verification failed."
 msgstr "遷移驗證失敗。"
+
+msgid "System default"
+msgstr "跟隨系統"

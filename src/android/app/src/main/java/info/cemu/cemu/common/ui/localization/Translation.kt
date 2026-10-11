@@ -45,6 +45,8 @@ private const val TRANSLATIONS_FOLDER = "translations"
 private const val TRANSLATIONS_FILE_NAME = "cemu.po"
 const val DEFAULT_LANGUAGE = "en"
 
+const val SYSTEM_DEFAULT_LANGUAGE = "system"
+
 private val DefaultTranslation = object : Translation(Locale(DEFAULT_LANGUAGE)) {
     override fun load(context: Context) {
         I18n = Gettext.Fallback
@@ -56,29 +58,60 @@ private var Translations = listOf<Translation>(DefaultTranslation)
 
 data class Language(val code: String, val displayName: String)
 
-fun getAvailableLanguages() =
-    Translations.map {
-        val name = if (it.locale.language.lowercase().startsWith("zh")) {
+fun getAvailableLanguages(): List<Language> {
+    val languages = mutableListOf<Language>()
+    languages.add(Language(SYSTEM_DEFAULT_LANGUAGE, tr("System default")))
+    
+    val list = Translations.map {
+        val code = it.locale.language
+        val normalizedCode = if (code.lowercase().startsWith("zh")) "zh_TW" else code
+        val name = if (normalizedCode.equals("zh_TW", ignoreCase = true)) {
             "繁體中文 (台灣)"
         } else {
             it.locale.getDisplayName(it.locale).replaceFirstChar { char -> char.uppercase() }
         }
-        Language(it.locale.language, name)
-    }.distinctBy { it.displayName }
+        Language(normalizedCode, name)
+    }.distinctBy { it.code }
+    languages.addAll(list)
+    return languages
+}
+
+fun resolveLanguageCode(languageCode: String): String {
+    if (languageCode == SYSTEM_DEFAULT_LANGUAGE || languageCode.isEmpty()) {
+        val defaultLocale = java.util.Locale.getDefault()
+        val lang = defaultLocale.language.lowercase()
+        return if (lang.startsWith("zh")) "zh_TW" else lang
+    }
+    return if (languageCode.lowercase().startsWith("zh")) "zh_TW" else languageCode
+}
 
 fun setLanguage(languageCode: String, context: Context) {
-    val targetCode = if (languageCode.lowercase().startsWith("zh")) "zh_TW" else languageCode
-    val translation = Translations.firstOrNull { it.locale.language.equals(targetCode, ignoreCase = true) } 
-        ?: Translations.firstOrNull { it.locale.language.lowercase().startsWith("zh") }
-        ?: return
+    val targetCode = resolveLanguageCode(languageCode)
+    val translation = Translations.firstOrNull { 
+        val code = it.locale.language
+        code.equals(targetCode, ignoreCase = true) || 
+        (targetCode.equals("zh_TW", ignoreCase = true) && code.lowercase().startsWith("zh"))
+    } ?: Translations.firstOrNull { it.locale.language.equals(DEFAULT_LANGUAGE, ignoreCase = true) }
+      ?: return
+
     translation.load(context)
     CurrentLocale = translation.locale
 
     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
         try {
             val localeManager = context.getSystemService(android.app.LocaleManager::class.java)
-            val tag = if (targetCode.lowercase().startsWith("zh")) "zh-TW" else targetCode
-            localeManager?.applicationLocales = android.os.LocaleList.forLanguageTags(tag)
+            val tag = if (targetCode.equals("zh_TW", ignoreCase = true)) {
+                "zh-TW"
+            } else if (languageCode == SYSTEM_DEFAULT_LANGUAGE) {
+                ""
+            } else {
+                targetCode
+            }
+            localeManager?.applicationLocales = if (tag.isEmpty()) {
+                android.os.LocaleList.getEmptyLocaleList()
+            } else {
+                android.os.LocaleList.forLanguageTags(tag)
+            }
         } catch (_: Exception) {}
     }
 }

@@ -3015,14 +3015,8 @@ msgstr "請僅在重啟 Cemu 並確認新資料路徑可正常運作後，再執
 msgid "This updates local settings, controller profiles, and keys from the custom folder. Saves, games, updates, graphic packs, logs, account data, and shader cache are not replaced by this action."
 msgstr "此操作會從自訂資料夾更新本機設定、控制器設定檔與金鑰。存檔、遊戲、更新檔、圖形包、記錄檔、帳號資料與著色器快取將不受影響。"
 
-msgid "Import"
-msgstr "匯入"
-
 msgid "Use default"
 msgstr "使用預設"
-
-msgid "Status"
-msgstr "狀態"
 
 msgid "Current storage"
 msgstr "目前儲存路徑"

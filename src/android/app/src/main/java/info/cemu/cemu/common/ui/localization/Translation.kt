@@ -62,9 +62,12 @@ fun getAvailableLanguages(): List<Language> {
     val languages = mutableListOf<Language>()
     languages.add(Language(SYSTEM_DEFAULT_LANGUAGE, tr("System default")))
     
-    val list = Translations.map {
+    val list = Translations.mapNotNull {
         val code = it.locale.language
-        val normalizedCode = if (code.lowercase().startsWith("zh")) "zh_TW" else code
+        val full = it.locale.toString()
+        val isZh = code.contains("zh", ignoreCase = true) || full.contains("zh", ignoreCase = true)
+        val normalizedCode = if (isZh) "zh_TW" else code
+        if (normalizedCode.equals(DEFAULT_LANGUAGE, ignoreCase = true)) return@mapNotNull null
         val name = if (normalizedCode.equals("zh_TW", ignoreCase = true)) {
             "繁體中文 (台灣)"
         } else {
@@ -89,13 +92,17 @@ fun setLanguage(languageCode: String, context: Context) {
     val targetCode = resolveLanguageCode(languageCode)
     val translation = Translations.firstOrNull { 
         val code = it.locale.language
-        code.equals(targetCode, ignoreCase = true) || 
-        (targetCode.equals("zh_TW", ignoreCase = true) && code.lowercase().startsWith("zh"))
+        val full = it.locale.toString()
+        code.equals(targetCode, ignoreCase = true) || full.equals(targetCode, ignoreCase = true)
+    } ?: Translations.firstOrNull { 
+        targetCode.equals("zh_TW", ignoreCase = true) && 
+        (it.locale.language.contains("zh", ignoreCase = true) || it.locale.toString().contains("zh", ignoreCase = true))
     } ?: Translations.firstOrNull { it.locale.language.equals(DEFAULT_LANGUAGE, ignoreCase = true) }
       ?: return
 
     translation.load(context)
     CurrentLocale = translation.locale
+    Log.d("CemuTranslations", "Language set to $targetCode (loaded ${translation.locale}), test tr Data storage: ${tr("Data storage")}")
 
     if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
         try {
@@ -118,7 +125,8 @@ fun setLanguage(languageCode: String, context: Context) {
 
 fun setTranslations(context: Context) {
     val assetTranslations = context.assets.list(TRANSLATIONS_FOLDER)?.filter { language ->
-        if (language == DEFAULT_LANGUAGE) return@filter false
+        // 略過英文與舊簡中目錄 zh，本專案一律使用 zh_TW
+        if (language == DEFAULT_LANGUAGE || language.equals("zh", ignoreCase = true)) return@filter false
 
         context.assets.list("$TRANSLATIONS_FOLDER/$language")
             ?.contains(TRANSLATIONS_FILE_NAME)
@@ -129,7 +137,23 @@ fun setTranslations(context: Context) {
         AssetTranslation(locale, assetFile)
     } ?: listOf()
 
-    Translations = listOf(DefaultTranslation).plus(assetTranslations)
+    // 確保 zh_TW 必定納入載入清單
+    val hasZhTw = assetTranslations.any { 
+        it.locale.language.equals("zh_TW", ignoreCase = true) || it.locale.toString().equals("zh_tw", ignoreCase = true) 
+    }
+    val finalTranslations = if (!hasZhTw) {
+        val zhTwAsset = "$TRANSLATIONS_FOLDER/zh_TW/$TRANSLATIONS_FILE_NAME"
+        try {
+            context.assets.open(zhTwAsset).close()
+            assetTranslations + AssetTranslation(Locale("zh_TW"), zhTwAsset)
+        } catch (_: Exception) {
+            assetTranslations
+        }
+    } else {
+        assetTranslations
+    }
+
+    Translations = listOf(DefaultTranslation).plus(finalTranslations)
 }
 
 fun trNoop(text: String) = text
